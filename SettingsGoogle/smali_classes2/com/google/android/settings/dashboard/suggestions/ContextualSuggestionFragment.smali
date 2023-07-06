@@ -375,12 +375,12 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0600a6
+    sget v0, Lcom/android/settings/R$layout;->contextual_suggestion_tile:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0600a7
+    sget v0, Lcom/android/settings/R$layout;->contextual_suggestion_tile_two_pane:I
 
     :goto_0
     const/4 v1, 0x1
