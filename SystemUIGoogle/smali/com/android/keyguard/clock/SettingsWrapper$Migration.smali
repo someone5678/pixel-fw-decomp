@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/android/keyguard/clock/SettingsWrapper$Migration;
+.super Ljava/lang/Object;
+.source "SettingsWrapper.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/keyguard/clock/SettingsWrapper;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "Migration"
+.end annotation
+
+
+# virtual methods
+.method public abstract migrate(ILjava/lang/String;)V
+.end method

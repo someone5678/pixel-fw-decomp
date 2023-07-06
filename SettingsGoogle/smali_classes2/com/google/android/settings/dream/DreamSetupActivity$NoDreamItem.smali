@@ -1,0 +1,184 @@
+.class Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;
+.super Ljava/lang/Object;
+.source "DreamSetupActivity.java"
+
+# interfaces
+.implements Lcom/android/settings/dream/IDreamItem;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/settings/dream/DreamSetupActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2
+    name = "NoDreamItem"
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+
+# direct methods
+.method private constructor <init>(Lcom/google/android/settings/dream/DreamSetupActivity;)V
+    .locals 0
+
+    .line 279
+    iput-object p1, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/google/android/settings/dream/DreamSetupActivity;Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem-IA;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;-><init>(Lcom/google/android/settings/dream/DreamSetupActivity;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getIcon()Landroid/graphics/drawable/Drawable;
+    .locals 1
+
+    .line 292
+    iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    const v0, 0x7f02035f
+
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getPreviewImage()Landroid/graphics/drawable/Drawable;
+    .locals 1
+
+    .line 308
+    iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    const v0, 0x7f02048b
+
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getSummary()Ljava/lang/CharSequence;
+    .locals 1
+
+    .line 287
+    iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    const v0, 0x7f0408d8
+
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getTitle()Ljava/lang/CharSequence;
+    .locals 1
+
+    .line 282
+    iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    const v0, 0x7f0408d7
+
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public isActive()Z
+    .locals 0
+
+    .line 313
+    iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    invoke-static {p0}, Lcom/google/android/settings/dream/DreamSetupActivity;->-$$Nest$fgetmNoDreamSelected(Lcom/google/android/settings/dream/DreamSetupActivity;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public onItemClicked()V
+    .locals 7
+
+    .line 297
+    iget-object v0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lcom/google/android/settings/dream/DreamSetupActivity;->-$$Nest$fputmActiveDream(Lcom/google/android/settings/dream/DreamSetupActivity;Lcom/android/settingslib/dream/DreamBackend$DreamInfo;)V
+
+    .line 298
+    iget-object v0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lcom/google/android/settings/dream/DreamSetupActivity;->-$$Nest$fputmNoDreamSelected(Lcom/google/android/settings/dream/DreamSetupActivity;Z)V
+
+    .line 299
+    iget-object v0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    invoke-static {v0}, Lcom/android/settings/overlay/FeatureFactory;->getFactory(Landroid/content/Context;)Lcom/android/settings/overlay/FeatureFactory;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/android/settings/overlay/FeatureFactory;->getMetricsFeatureProvider()Lcom/android/settingslib/core/instrumentation/MetricsFeatureProvider;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    const/16 v3, 0x6fc
+
+    const/16 v4, 0x78f
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x1
+
+    invoke-virtual/range {v1 .. v6}, Lcom/android/settingslib/core/instrumentation/MetricsFeatureProvider;->action(IIILjava/lang/String;I)V
+
+    .line 302
+    iget-object v0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    invoke-static {v0}, Lcom/google/android/settings/dream/DreamSetupActivity;->-$$Nest$fgetmBackend(Lcom/google/android/settings/dream/DreamSetupActivity;)Lcom/android/settingslib/dream/DreamBackend;
+
+    move-result-object v0
+
+    const/4 v1, 0x3
+
+    invoke-virtual {v0, v1}, Lcom/android/settingslib/dream/DreamBackend;->setWhenToDream(I)V
+
+    .line 303
+    iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
+
+    invoke-static {p0}, Lcom/google/android/settings/dream/DreamSetupActivity;->-$$Nest$mupdatePrimaryButtonState(Lcom/google/android/settings/dream/DreamSetupActivity;)V
+
+    return-void
+.end method
+
+.method public viewType()I
+    .locals 0
+
+    const/4 p0, 0x1
+
+    return p0
+.end method
