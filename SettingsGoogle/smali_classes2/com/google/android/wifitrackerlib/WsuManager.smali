@@ -159,7 +159,7 @@
 
     move-result-object p0
 
-    sget v0, Lcom/google/android/wifitrackerlib/R$array;->wifitrackerlib_wsu_service_provider_packages:I
+    sget v0, Lcom/android/settings/R$array;->wifitrackerlib_wsu_service_provider_packages:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
