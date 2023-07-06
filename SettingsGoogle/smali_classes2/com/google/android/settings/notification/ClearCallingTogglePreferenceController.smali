@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f090009
+    sget v1, Lcom/android/settings/R$bool;->config_clear_calling_enabled:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -60,7 +60,7 @@
 
     iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f0406e8
+    sget v0, Lcom/android/settings/R$string;->config_settingsintelligence_package_name:I
 
     .line 35
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -112,7 +112,7 @@
 .method public getSliceHighlightMenuRes()I
     .locals 0
 
-    const p0, 0x7f040de6
+    sget p0, Lcom/android/settings/R$string;->menu_key_sound:I
 
     return p0
 .end method
