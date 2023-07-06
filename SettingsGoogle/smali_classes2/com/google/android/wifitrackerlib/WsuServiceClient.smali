@@ -1588,7 +1588,7 @@
     .line 141
     iget-object p0, p0, Lcom/google/android/wifitrackerlib/WsuServiceClient;->mContext:Landroid/content/Context;
 
-    sget p1, Lcom/google/android/wifitrackerlib/R$string;->wifitrackerlib_connected_with_wsu_authenticator:I
+    sget p1, Lcom/android/settings/R$string;->wifitrackerlib_connected_with_wsu_authenticator:I
 
     const/4 v0, 0x1
 

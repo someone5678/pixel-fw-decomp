@@ -379,7 +379,7 @@
 
     move-result-object p1
 
-    sget v0, Lcom/google/android/wifitrackerlib/R$string;->wifitrackerlib_wsu_entry_summary_not_provisioned:I
+    sget v0, Lcom/android/settings/R$string;->wifitrackerlib_wsu_entry_summary_not_provisioned:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -416,7 +416,7 @@
 
     move-result-object p0
 
-    sget p1, Lcom/google/android/wifitrackerlib/R$string;->wifitrackerlib_wsu_entry_summary_provision_error:I
+    sget p1, Lcom/android/settings/R$string;->wifitrackerlib_wsu_entry_summary_provision_error:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -432,7 +432,7 @@
 
     move-result-object p0
 
-    sget p1, Lcom/google/android/wifitrackerlib/R$string;->wifitrackerlib_wsu_entry_summary_provisioning:I
+    sget p1, Lcom/android/settings/R$string;->wifitrackerlib_wsu_entry_summary_provisioning:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -448,7 +448,7 @@
 
     move-result-object p0
 
-    sget p1, Lcom/google/android/wifitrackerlib/R$string;->wifitrackerlib_wsu_entry_summary_not_provisioned:I
+    sget p1, Lcom/android/settings/R$string;->wifitrackerlib_wsu_entry_summary_not_provisioned:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
