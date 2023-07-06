@@ -4,14 +4,13 @@ CWD=$(pwd)
 
 for i in SettingsGoogle SystemUIGoogle;
 do
-    if [ -f $CWD/${i}.apk ];
+    if [ -f $CWD/apks/${i}.apk ];
     then
-        if [ -d $i ];
+        if [ -d $CWD/$i ];
         then
             mkdir -p old
             mv $i old/$i
         fi
-        apktool -r d ${i}.apk
-        mv apks/$i $CWD/$i
+        apktool -r d apks/${i}.apk
     fi
 done
