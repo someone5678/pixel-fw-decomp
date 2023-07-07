@@ -286,7 +286,7 @@
     .line 143
     iget-object v1, p0, Lcom/google/android/settings/connecteddevice/dock/ConnectedDockUpdater;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0408bf
+    sget v2, Lcom/android/settings/R$string;->dock_summary_charging_phone:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
