@@ -35,7 +35,7 @@
     .line 55
     iget-object p1, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f040ad0
+    sget v0, Lcom/android/settings/R$string;->help_url_connectivity_helper:I
 
     .line 56
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -111,7 +111,7 @@
     .line 52
     iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f040ad0
+    sget v1, Lcom/android/settings/R$string;->help_url_connectivity_helper:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -155,7 +155,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f09000a
+    sget v0, Lcom/android/settings/R$bool;->config_connectivity_helper_call_quality_default_value:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -174,7 +174,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f090035
+    sget v0, Lcom/android/settings/R$bool;->config_show_connectivity_helper_call_quality:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getBoolean(I)Z
 
