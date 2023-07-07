@@ -106,7 +106,7 @@
     :goto_0
     if-nez p1, :cond_1
 
-    const p1, 0x7f040687
+    sget p1, Lcom/android/settings/R$string;->columbus_gesture_training_launch_no_selection_error:I
 
     const/4 v0, 0x0
 
@@ -240,7 +240,7 @@
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setTheme(I)V
 
-    const v0, 0x7f060093
+    sget v0, Lcom/android/settings/R$layout;->columbus_gesture_training_launch_activity:I
 
     .line 41
     invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->setContentView(I)V
@@ -248,7 +248,7 @@
     .line 43
     invoke-super {p0, p1}, Lcom/google/android/settings/gestures/columbus/ColumbusGestureTrainingBase;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d00b5
+    sget p1, Lcom/android/settings/R$id;->apps:I
 
     .line 45
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -311,7 +311,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b00ed
+    sget v3, Lcom/android/settings/R$dimen;->columbus_app_icon_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -335,7 +335,7 @@
 
     check-cast v3, Landroid/content/pm/LauncherActivityInfo;
 
-    const v4, 0x7f06008e
+    sget v4, Lcom/android/settings/R$layout;->columbus_app_list_item:I
 
     .line 53
     iget-object v5, p0, Lcom/google/android/settings/gestures/columbus/ColumbusGestureTrainingLaunchActivity;->mRadioGroup:Landroid/widget/RadioGroup;
@@ -385,7 +385,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0d0375
+    sget p1, Lcom/android/settings/R$id;->layout:I
 
     .line 63
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -394,7 +394,7 @@
 
     check-cast p1, Lcom/google/android/setupdesign/GlifLayout;
 
-    const v0, 0x7f040688
+    sget v0, Lcom/android/settings/R$string;->columbus_gesture_training_launch_text:I
 
     .line 64
     invoke-virtual {p1, v0}, Lcom/google/android/setupdesign/GlifLayout;->setDescriptionText(I)V
@@ -413,7 +413,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f041942
+    sget v1, Lcom/android/settings/R$string;->wizard_next:I
 
     .line 68
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -436,7 +436,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f14028b
+    sget v1, Lcom/android/settings/R$style;->SudGlifButton_Primary:I
 
     .line 71
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -456,7 +456,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f040674
+    sget v1, Lcom/android/settings/R$string;->columbus_gesture_enrollment_do_it_later:I
 
     .line 76
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -479,7 +479,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f14028c
+    sget v0, Lcom/android/settings/R$style;->SudGlifButton_Secondary:I
 
     .line 79
     invoke-virtual {p0, v0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;

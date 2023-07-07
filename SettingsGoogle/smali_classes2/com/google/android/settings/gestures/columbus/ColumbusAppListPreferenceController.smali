@@ -77,7 +77,7 @@
     .line 61
     iget-object p2, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f040695
+    sget v0, Lcom/android/settings/R$string;->columbus_setting_action_launch_value:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -14,7 +14,7 @@
     .line 34
     new-instance v0, Lcom/google/android/settings/gestures/columbus/ColumbusSettings$1;
 
-    const v1, 0x7f16004d
+    sget v1, Lcom/android/settings/R$xml;->columbus_settings:I
 
     invoke-direct {v0, v1}, Lcom/google/android/settings/gestures/columbus/ColumbusSettings$1;-><init>(I)V
 
@@ -53,7 +53,7 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f16004d
+    sget p0, Lcom/android/settings/R$xml;->columbus_settings:I
 
     return p0
 .end method

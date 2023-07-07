@@ -88,7 +88,7 @@
     .line 51
     iget-object p1, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f040695
+    sget p2, Lcom/android/settings/R$string;->columbus_setting_action_launch_value:I
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -188,7 +188,7 @@
 
     iget-object v2, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f040698
+    sget v3, Lcom/android/settings/R$string;->columbus_setting_action_open_app_title:I
 
     .line 153
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;

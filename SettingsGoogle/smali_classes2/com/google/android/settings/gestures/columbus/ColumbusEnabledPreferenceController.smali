@@ -94,7 +94,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f040672
+    sget v0, Lcom/android/settings/R$string;->columbus_gesture_detected:I
 
     const/4 v1, 0x0
 

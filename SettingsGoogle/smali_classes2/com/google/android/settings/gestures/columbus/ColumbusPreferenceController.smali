@@ -134,7 +134,7 @@
     .line 32
     iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f040a42
+    sget v1, Lcom/android/settings/R$string;->gesture_setting_on:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -150,7 +150,7 @@
     .line 34
     iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0406a5
+    sget v2, Lcom/android/settings/R$string;->columbus_summary:I
 
     const/4 v3, 0x2
 
@@ -174,7 +174,7 @@
     :cond_0
     iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f040a41
+    sget v0, Lcom/android/settings/R$string;->gesture_setting_off:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

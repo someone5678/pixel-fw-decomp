@@ -474,7 +474,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f040692
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_launch_summary_no_selection:I
 
     if-eqz v0, :cond_2
 
@@ -528,7 +528,7 @@
     return-object p0
 
     :catch_0
-    const v0, 0x7f040693
+    sget v0, Lcom/android/settings/R$string;->columbus_setting_action_launch_summary_not_installed:I
 
     .line 123
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;

@@ -38,7 +38,7 @@
     .line 68
     iget-object p0, p0, Lcom/google/android/settings/gestures/columbus/ColumbusGestureLaunchAppShortcutSettingsFragment;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f040672
+    sget v0, Lcom/android/settings/R$string;->columbus_gesture_detected:I
 
     const/4 v1, 0x0
 
@@ -73,7 +73,7 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f16004b
+    sget p0, Lcom/android/settings/R$xml;->columbus_launch_app_shortcut_settings:I
 
     return p0
 .end method

@@ -33,7 +33,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0436
+    sget v0, Lcom/android/settings/R$dimen;->secondary_app_icon_size:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -84,7 +84,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f04068d
+    sget v2, Lcom/android/settings/R$string;->columbus_radio_button_extra_widget_a11y_label:I
 
     const/4 v3, 0x1
 
@@ -127,7 +127,7 @@
     .line 34
     invoke-super {p0, p1}, Lcom/android/settingslib/widget/SelectorWithWidgetPreference;->onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
 
-    const v0, 0x7f0d0553
+    sget v0, Lcom/android/settings/R$id;->selector_extra_widget:I
 
     .line 36
     invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;->findViewById(I)Landroid/view/View;

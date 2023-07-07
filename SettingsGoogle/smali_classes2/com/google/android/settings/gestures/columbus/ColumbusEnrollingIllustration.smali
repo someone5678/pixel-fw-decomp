@@ -54,7 +54,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f0b00f1
+    sget p2, Lcom/android/settings/R$dimen;->columbus_enroll_illustration_stroke_width:I
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -65,7 +65,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0a0076
+    sget v0, Lcom/android/settings/R$color;->columbus_highlight:I
 
     invoke-virtual {p2, v0}, Landroid/content/Context;->getColor(I)I
 

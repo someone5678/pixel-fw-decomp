@@ -75,12 +75,12 @@
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setTheme(I)V
 
-    const v0, 0x7f060091
+    sget v0, Lcom/android/settings/R$layout;->columbus_gesture_training_finished_activity:I
 
     .line 24
     invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->setContentView(I)V
 
-    const v0, 0x7f0d0375
+    sget v0, Lcom/android/settings/R$id;->layout:I
 
     .line 26
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -92,12 +92,12 @@
     .line 27
     invoke-super {p0, p1}, Lcom/google/android/settings/gestures/columbus/ColumbusGestureTrainingBase;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f040683
+    sget p1, Lcom/android/settings/R$string;->columbus_gesture_training_finished_title:I
 
     .line 29
     invoke-virtual {v0, p1}, Lcom/google/android/setupdesign/GlifLayout;->setHeaderText(I)V
 
-    const p1, 0x7f040682
+    sget p1, Lcom/android/settings/R$string;->columbus_gesture_training_finished_text:I
 
     .line 30
     invoke-virtual {v0, p1}, Lcom/google/android/setupdesign/GlifLayout;->setDescriptionText(I)V
@@ -116,7 +116,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f040675
+    sget v1, Lcom/android/settings/R$string;->columbus_gesture_enrollment_settings:I
 
     .line 35
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -139,7 +139,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f14028c
+    sget v1, Lcom/android/settings/R$style;->SudGlifButton_Secondary:I
 
     .line 38
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -184,7 +184,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0408c8
+    sget v1, Lcom/android/settings/R$string;->done:I
 
     .line 48
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -207,7 +207,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f14028b
+    sget v2, Lcom/android/settings/R$style;->SudGlifButton_Primary:I
 
     .line 51
     invoke-virtual {v0, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -263,7 +263,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f040673
+    sget v0, Lcom/android/settings/R$string;->columbus_gesture_enrollment_complete:I
 
     .line 60
     invoke-virtual {p1, p0, v0}, Lcom/google/android/setupcompat/template/FooterButton;->setText(Landroid/content/Context;I)V
@@ -272,7 +272,7 @@
 
     :cond_4
     :goto_0
-    const v0, 0x7f040eb9
+    sget v0, Lcom/android/settings/R$string;->next_label:I
 
     .line 56
     invoke-virtual {p1, p0, v0}, Lcom/google/android/setupcompat/template/FooterButton;->setText(Landroid/content/Context;I)V

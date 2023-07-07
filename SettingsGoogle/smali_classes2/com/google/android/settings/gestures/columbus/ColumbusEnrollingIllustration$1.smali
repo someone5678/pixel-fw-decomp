@@ -71,7 +71,7 @@
     .line 82
     iget-object p1, p0, Lcom/google/android/settings/gestures/columbus/ColumbusEnrollingIllustration$1;->this$0:Lcom/google/android/settings/gestures/columbus/ColumbusEnrollingIllustration;
 
-    const v0, 0x7f02029f
+    sget v0, Lcom/android/settings/R$drawable;->ic_icon_check:I
 
     invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->setBackgroundResource(I)V
 
