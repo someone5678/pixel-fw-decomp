@@ -76,7 +76,7 @@
     .line 127
     iget-object p0, p0, Lcom/google/android/settings/survey/SurveyFeatureProviderImpl;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f0406e8
+    sget v0, Lcom/android/settings/R$string;->config_settingsintelligence_package_name:I
 
     .line 128
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -163,7 +163,7 @@
 
     iget-object v1, p0, Lcom/google/android/settings/survey/SurveyFeatureProviderImpl;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f0406e8
+    sget v2, Lcom/android/settings/R$string;->config_settingsintelligence_package_name:I
 
     .line 114
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
