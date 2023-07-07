@@ -71,12 +71,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03005b
+    sget v0, Lcom/android/settings/R$raw;->lottie_reverse_charging_2020:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f03005a
+    sget v0, Lcom/android/settings/R$raw;->lottie_reverse_charging:I
 
     :goto_0
     return v0

@@ -14,7 +14,7 @@
     .line 45
     new-instance v0, Lcom/android/settings/search/BaseSearchIndexProvider;
 
-    const v1, 0x7f1600d1
+    sget v1, Lcom/android/settings/R$xml;->reverse_charging:I
 
     invoke-direct {v0, v1}, Lcom/android/settings/search/BaseSearchIndexProvider;-><init>(I)V
 
@@ -39,7 +39,7 @@
 .method public getHelpResource()I
     .locals 0
 
-    const p0, 0x7f040ab3
+    sget p0, Lcom/android/settings/R$string;->help_uri_smart_battery_settings:I
 
     return p0
 .end method
@@ -63,7 +63,7 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f1600d1
+    sget p0, Lcom/android/settings/R$xml;->reverse_charging:I
 
     return p0
 .end method

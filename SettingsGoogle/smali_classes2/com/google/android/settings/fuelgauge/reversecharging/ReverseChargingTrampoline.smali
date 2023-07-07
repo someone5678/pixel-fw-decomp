@@ -62,7 +62,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f041190
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_title:I
 
     .line 34
     invoke-virtual {p1, v0}, Lcom/android/settings/core/SubSettingLauncher;->setTitleRes(I)Lcom/android/settings/core/SubSettingLauncher;

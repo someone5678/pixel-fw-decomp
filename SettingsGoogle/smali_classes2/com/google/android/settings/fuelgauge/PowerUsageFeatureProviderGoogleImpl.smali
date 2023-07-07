@@ -352,7 +352,7 @@
     .line 266
     iget-object p0, p0, Lcom/android/settings/fuelgauge/PowerUsageFeatureProviderImpl;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f04020d
+    sget v0, Lcom/android/settings/R$string;->advanced_battery_graph_subtext:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -874,7 +874,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f01000e
+    sget p1, Lcom/android/settings/R$array;->allowlist_hide_entry_in_battery_usage:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 
@@ -891,7 +891,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f01000f
+    sget p1, Lcom/android/settings/R$array;->allowlist_hide_summary_in_battery_usage:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 
@@ -923,7 +923,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f01000d
+    sget v0, Lcom/android/settings/R$array;->allowlist_hide_background_in_battery_usage:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 

@@ -393,7 +393,7 @@
     .line 127
     iget-object v1, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f04118e
+    sget v2, Lcom/android/settings/R$string;->reverse_charging_switch_title:I
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -415,7 +415,7 @@
     .line 130
     iget-object v0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f04117c
+    sget v1, Lcom/android/settings/R$string;->reverse_charging_detail_charging_overheat_message:I
 
     .line 131
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -435,7 +435,7 @@
     .line 133
     iget-object v0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f041180
+    sget v1, Lcom/android/settings/R$string;->reverse_charging_detail_power_save_mode_is_on_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -456,7 +456,7 @@
     .line 136
     iget-object v0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f04117d
+    sget v1, Lcom/android/settings/R$string;->reverse_charging_detail_charging_wirelessly_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -473,7 +473,7 @@
     .line 139
     iget-object v0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f041181
+    sget v1, Lcom/android/settings/R$string;->reverse_charging_detail_unplug_usb_cable_message:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -489,7 +489,7 @@
 
     const-string v7, "RCSwitchPrefController"
 
-    const v8, 0x7f041193
+    sget v8, Lcom/android/settings/R$string;->reverse_charging_warning_title:I
 
     if-eq v2, v5, :cond_4
 

@@ -22,7 +22,7 @@
     .line 34
     iput-object p1, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingSeekBarPreference;->mContext:Landroid/content/Context;
 
-    const p1, 0x7f0601b5
+    sget p1, Lcom/android/settings/R$layout;->preference_reverse_charging_slider:I
 
     .line 35
     invoke-virtual {p0, p1}, Landroidx/preference/Preference;->setLayoutResource(I)V
@@ -68,7 +68,7 @@
     .line 40
     invoke-super {p0, p1}, Lcom/android/settings/widget/SeekBarPreference;->onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
 
-    const v0, 0x7f0d048e
+    sget v0, Lcom/android/settings/R$id;->percentage_number:I
 
     .line 41
     invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;->findViewById(I)Landroid/view/View;
@@ -88,7 +88,7 @@
 
     check-cast p1, Landroid/widget/ImageView;
 
-    const v0, 0x7f020390
+    sget v0, Lcom/android/settings/R$drawable;->ic_reverse_charging:I
 
     .line 44
     invoke-virtual {p1, v0}, Landroid/widget/ImageView;->setImageResource(I)V

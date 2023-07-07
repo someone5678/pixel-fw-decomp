@@ -105,7 +105,7 @@
     .line 41
     iget-object p0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f04118a
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_overheat_summary:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -126,7 +126,7 @@
     .line 44
     iget-object p0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f04118b
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_power_save_mode_is_on_message:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
     .line 47
     iget-object p0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f04117b
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_charging_wirelessly_message:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -168,7 +168,7 @@
     .line 50
     iget-object p0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f041191
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_unplug_usb_cable_message:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -189,7 +189,7 @@
     .line 53
     iget-object p0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f041192
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_warning_summary:I
 
     const/4 v1, 0x1
 
@@ -219,7 +219,7 @@
     .line 57
     iget-object p0, p0, Lcom/google/android/settings/fuelgauge/reversecharging/ReverseChargingBasePreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f04118c
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_sharing_level_message:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -232,12 +232,12 @@
     :cond_5
     if-eqz v1, :cond_6
 
-    const v0, 0x7f041186
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_is_on_summary:I
 
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f041183
+    sget v0, Lcom/android/settings/R$string;->reverse_charging_is_off_summary:I
 
     .line 63
     :goto_0

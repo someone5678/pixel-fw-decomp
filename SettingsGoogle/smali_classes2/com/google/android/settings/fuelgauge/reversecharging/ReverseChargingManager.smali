@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f090050
+    sget v1, Lcom/android/settings/R$bool;->config_show_reverse_charging:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
