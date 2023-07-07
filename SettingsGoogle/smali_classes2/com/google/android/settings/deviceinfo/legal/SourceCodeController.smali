@@ -77,7 +77,7 @@
     :cond_0
     iget-object p1, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f040ae0
+    sget v0, Lcom/android/settings/R$string;->help_url_legal_source_code:I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
