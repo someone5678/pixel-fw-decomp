@@ -107,7 +107,7 @@
     .line 45
     iput-object p2, p0, Lcom/google/android/settings/biometrics/face/anim/curve/GridController;->mBucketListener:Lcom/google/android/settings/biometrics/face/anim/FaceEnrollAnimationMultiAngleDrawable$BucketListener;
 
-    const p2, 0x7f0a00b8
+    sget p2, Lcom/android/settings/R$color;->face_enroll_cell_not_enrolled:I
 
     .line 48
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
@@ -116,7 +116,7 @@
 
     iput p2, p0, Lcom/google/android/settings/biometrics/face/anim/curve/GridController;->mScrimNotEnrolledDefaultColor:I
 
-    const p2, 0x7f0a00b9
+    sget p2, Lcom/android/settings/R$color;->face_enroll_cell_not_enrolled_primary:I
 
     .line 50
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
@@ -125,7 +125,7 @@
 
     iput p2, p0, Lcom/google/android/settings/biometrics/face/anim/curve/GridController;->mScrimNotEnrolledPrimaryColor:I
 
-    const p2, 0x7f0a00ba
+    sget p2, Lcom/android/settings/R$color;->face_enroll_cell_not_enrolled_secondary:I
 
     .line 52
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
@@ -139,7 +139,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f010097
+    sget v1, Lcom/android/settings/R$array;->face_enroll_primary_buckets:I
 
     invoke-virtual {p2, v1}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -181,14 +181,14 @@
     :cond_0
     new-instance p2, Lcom/google/android/settings/biometrics/face/anim/curve/ScrimState;
 
-    const v1, 0x7f0a00c2
+    sget v1, Lcom/android/settings/R$color;->face_enroll_no_activity_gone:I
 
     .line 62
     invoke-virtual {p1, v1}, Landroid/content/Context;->getColor(I)I
 
     move-result v1
 
-    const v2, 0x7f0a00c3
+    sget v2, Lcom/android/settings/R$color;->face_enroll_no_activity_showing:I
 
     .line 63
     invoke-virtual {p1, v2}, Landroid/content/Context;->getColor(I)I
