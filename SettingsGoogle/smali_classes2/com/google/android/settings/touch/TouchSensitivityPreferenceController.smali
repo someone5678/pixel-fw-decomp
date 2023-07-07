@@ -35,7 +35,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f09005e
+    sget v0, Lcom/android/settings/R$bool;->config_show_touch_sensitivity:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -77,7 +77,7 @@
 .method public getSliceHighlightMenuRes()I
     .locals 0
 
-    const p0, 0x7f040dde
+    sget p0, Lcom/android/settings/R$string;->menu_key_display:I
 
     return p0
 .end method
