@@ -111,7 +111,7 @@
 
     iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f041590
+    sget v1, Lcom/android/settings/R$string;->tips_help_url_gesture:I
 
     .line 60
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;

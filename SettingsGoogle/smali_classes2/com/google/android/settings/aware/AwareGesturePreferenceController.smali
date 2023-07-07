@@ -126,21 +126,21 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f040363
+    sget v0, Lcom/android/settings/R$string;->aware_summary_when_airplane_batterysaver_on:I
 
     goto :goto_0
 
     :cond_1
     if-eqz v0, :cond_2
 
-    const v0, 0x7f040365
+    sget v0, Lcom/android/settings/R$string;->aware_summary_when_batterysaver_on:I
 
     goto :goto_0
 
     :cond_2
     if-eqz v1, :cond_3
 
-    const v0, 0x7f040364
+    sget v0, Lcom/android/settings/R$string;->aware_summary_when_airplane_on:I
 
     goto :goto_0
 

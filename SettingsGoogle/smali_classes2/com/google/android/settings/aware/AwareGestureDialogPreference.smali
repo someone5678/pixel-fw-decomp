@@ -116,7 +116,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f040a35
+    sget p1, Lcom/android/settings/R$string;->gesture_aware_confirmation_action_button:I
 
     .line 55
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -149,14 +149,14 @@
 
     move-result-object p1
 
-    const p2, 0x7f040352
+    sget p2, Lcom/android/settings/R$string;->aware_disabled_preference_action:I
 
     .line 60
     invoke-virtual {p1, p2, p0}, Landroidx/appcompat/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p0
 
-    const p1, 0x7f040355
+    sget p1, Lcom/android/settings/R$string;->aware_disabled_preference_neutral:I
 
     .line 61
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;

@@ -188,7 +188,7 @@
 .method public getSliceHighlightMenuRes()I
     .locals 0
 
-    const p0, 0x7f040de9
+    sget p0, Lcom/android/settings/R$string;->menu_key_system:I
 
     return p0
 .end method

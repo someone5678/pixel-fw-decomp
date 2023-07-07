@@ -107,7 +107,7 @@
 .method public getSliceHighlightMenuRes()I
     .locals 0
 
-    const p0, 0x7f040dde
+    sget p0, Lcom/android/settings/R$string;->menu_key_display:I
 
     return p0
 .end method
@@ -136,7 +136,7 @@
     .line 56
     iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f040d21
+    sget v1, Lcom/android/settings/R$string;->lockpattern_settings_power_button_instantly_locks_summary:I
 
     const/4 v2, 0x1
 
@@ -156,7 +156,7 @@
     :cond_0
     iget-object p0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v0, 0x7f04004e
+    sget v0, Lcom/android/settings/R$string;->summary_placeholder:I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

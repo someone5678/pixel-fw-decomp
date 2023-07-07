@@ -83,16 +83,16 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f040360
+    sget p1, Lcom/android/settings/R$string;->aware_settings_enabled_info_dialog_title:I
 
-    const v0, 0x7f04035f
+    sget v0, Lcom/android/settings/R$string;->aware_settings_enabled_info_dialog_content:I
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f04035e
+    sget p1, Lcom/android/settings/R$string;->aware_settings_disabled_info_dialog_title:I
 
-    const v0, 0x7f04035d
+    sget v0, Lcom/android/settings/R$string;->aware_settings_disabled_info_dialog_content:I
 
     .line 39
     :goto_0
@@ -114,7 +114,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f040ec7
+    sget p1, Lcom/android/settings/R$string;->nfc_how_it_works_got_it:I
 
     const/4 v0, 0x0
 

@@ -44,7 +44,7 @@
     .line 150
     new-instance v0, Lcom/google/android/settings/aware/AwareDisplaySettings$1;
 
-    const v1, 0x7f160034
+    sget v1, Lcom/android/settings/R$xml;->aware_wake_display_settings:I
 
     invoke-direct {v0, v1}, Lcom/google/android/settings/aware/AwareDisplaySettings$1;-><init>(I)V
 
@@ -76,7 +76,7 @@
 
     invoke-direct {v0, p0}, Lcom/android/settingslib/widget/IllustrationPreference;-><init>(Landroid/content/Context;)V
 
-    const p0, 0x7f030051
+    sget p0, Lcom/android/settings/R$raw;->lottie_aware_display:I
 
     .line 77
     invoke-virtual {v0, p0}, Lcom/android/settingslib/widget/IllustrationPreference;->setLottieAnimationResId(I)V
@@ -154,14 +154,14 @@
     .line 87
     new-instance v2, Lcom/android/settings/utils/CandidateInfoExtra;
 
-    const v3, 0x7f040369
+    sget v3, Lcom/android/settings/R$string;->aware_wake_display_title:I
 
     .line 88
     invoke-virtual {v0, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v3
 
-    const v4, 0x7f040367
+    sget v4, Lcom/android/settings/R$string;->aware_wake_display_summary:I
 
     .line 89
     invoke-virtual {v0, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -199,14 +199,14 @@
     .line 94
     new-instance p0, Lcom/android/settings/utils/CandidateInfoExtra;
 
-    const v3, 0x7f040021
+    sget v3, Lcom/android/settings/R$string;->doze_always_on_title:I
 
     .line 95
     invoke-virtual {v0, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v3
 
-    const v4, 0x7f040020
+    sget v4, Lcom/android/settings/R$string;->doze_always_on_summary:I
 
     .line 96
     invoke-virtual {v0, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -224,7 +224,7 @@
     :cond_1
     new-instance p0, Lcom/android/settings/utils/CandidateInfoExtra;
 
-    const v3, 0x7f041509
+    sget v3, Lcom/android/settings/R$string;->switch_off_text:I
 
     .line 101
     invoke-virtual {v0, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -303,7 +303,7 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f160034
+    sget p0, Lcom/android/settings/R$xml;->aware_wake_display_settings:I
 
     return p0
 .end method

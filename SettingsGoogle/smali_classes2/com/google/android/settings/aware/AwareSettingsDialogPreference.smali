@@ -43,21 +43,21 @@
     .line 39
     invoke-super {p0, p1, p2}, Lcom/android/settingslib/CustomDialogPreferenceCompat;->onPrepareDialogBuilder(Landroidx/appcompat/app/AlertDialog$Builder;Landroid/content/DialogInterface$OnClickListener;)V
 
-    const p0, 0x7f04035e
+    sget p0, Lcom/android/settings/R$string;->aware_settings_disabled_info_dialog_title:I
 
     .line 41
     invoke-virtual {p1, p0}, Landroidx/appcompat/app/AlertDialog$Builder;->setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p0
 
-    const p1, 0x7f04035d
+    sget p1, Lcom/android/settings/R$string;->aware_settings_disabled_info_dialog_content:I
 
     .line 42
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AlertDialog$Builder;->setMessage(I)Landroidx/appcompat/app/AlertDialog$Builder;
 
     move-result-object p0
 
-    const p1, 0x7f040ec7
+    sget p1, Lcom/android/settings/R$string;->nfc_how_it_works_got_it:I
 
     const/4 p2, 0x0
 
