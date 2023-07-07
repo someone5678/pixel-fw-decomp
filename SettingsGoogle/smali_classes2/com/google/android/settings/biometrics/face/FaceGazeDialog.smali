@@ -80,14 +80,14 @@
 
     move-result-object p1
 
-    const v0, 0x7f04099a
+    sget v0, Lcom/android/settings/R$string;->face_enrolling_gaze_dialog_title:I
 
     .line 29
     invoke-virtual {p1, v0}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setTitle(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
     move-result-object p1
 
-    const v0, 0x7f040999
+    sget v0, Lcom/android/settings/R$string;->face_enrolling_gaze_dialog_message:I
 
     .line 30
     invoke-virtual {p1, v0}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setMessage(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -98,7 +98,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/settings/biometrics/face/FaceGazeDialog$$ExternalSyntheticLambda0;-><init>(Lcom/google/android/settings/biometrics/face/FaceGazeDialog;)V
 
-    const v1, 0x7f040998
+    sget v1, Lcom/android/settings/R$string;->face_enrolling_gaze_dialog_continue:I
 
     .line 31
     invoke-virtual {p1, v1, v0}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -109,7 +109,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/settings/biometrics/face/FaceGazeDialog$$ExternalSyntheticLambda1;-><init>(Lcom/google/android/settings/biometrics/face/FaceGazeDialog;)V
 
-    const p0, 0x7f040997
+    sget p0, Lcom/android/settings/R$string;->face_enrolling_gaze_dialog_cancel:I
 
     .line 33
     invoke-virtual {p1, p0, v0}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;

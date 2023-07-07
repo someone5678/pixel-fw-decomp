@@ -21,7 +21,7 @@
 .method public getPostureGuidanceIntent(Landroid/content/Context;)Landroid/content/Intent;
     .locals 0
 
-    const p0, 0x7f0406dc
+    sget p0, Lcom/android/settings/R$string;->config_face_enroll_guidance_page:I
 
     .line 33
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -66,7 +66,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f090016
+    sget p1, Lcom/android/settings/R$bool;->config_face_settings_attention_supported:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -83,7 +83,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f09006f
+    sget p1, Lcom/android/settings/R$bool;->config_suw_support_face_enroll:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
