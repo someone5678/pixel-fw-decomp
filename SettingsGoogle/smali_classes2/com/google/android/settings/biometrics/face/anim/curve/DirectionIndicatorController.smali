@@ -116,7 +116,7 @@
     .line 54
     invoke-virtual {v0, p2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    const p2, 0x7f0a0053
+    sget p2, Lcom/android/settings/R$color;->blue_500:I
 
     .line 55
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
@@ -238,7 +238,7 @@
     :cond_1
     iget-object v0, p0, Lcom/google/android/settings/biometrics/face/anim/curve/DirectionIndicatorController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f020190
+    sget v1, Lcom/android/settings/R$drawable;->face_indicator_triangle:I
 
     .line 104
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
