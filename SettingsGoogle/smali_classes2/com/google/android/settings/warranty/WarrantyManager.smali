@@ -426,7 +426,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f090020
+    sget v0, Lcom/android/settings/R$bool;->config_limited_warranty_enabled:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getBoolean(I)Z
 

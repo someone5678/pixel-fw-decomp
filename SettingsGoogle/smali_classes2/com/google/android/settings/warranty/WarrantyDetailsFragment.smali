@@ -26,7 +26,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 0
 
-    const p0, 0x7f0602f9
+    sget p0, Lcom/android/settings/R$layout;->warranty_content:I
 
     const/4 p3, 0x0
 
@@ -131,7 +131,7 @@
     invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     :cond_2
-    const p0, 0x7f0d06d8
+    sget v0, Lcom/android/settings/R$id;->warranty_text:I
 
     .line 61
     invoke-virtual {p1, p0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

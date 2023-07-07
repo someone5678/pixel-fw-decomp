@@ -129,7 +129,7 @@
     invoke-virtual {p0}, Lcom/android/settings/SettingsPreferenceFragment;->finish()V
 
     :cond_1
-    const v0, 0x7f160115
+    sget v0, Lcom/android/settings/R$xml;->warranty_list:I
 
     .line 40
     invoke-virtual {p0, v0}, Lcom/android/settings/SettingsPreferenceFragment;->addPreferencesFromResource(I)V

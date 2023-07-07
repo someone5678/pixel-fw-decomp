@@ -110,7 +110,7 @@
     return-object v0
 
     :cond_1
-    const v1, 0x7f041758
+    sget v1, Lcom/android/settings/R$string;->menu_key_emergency:I
 
     const/4 v2, 0x2
 
