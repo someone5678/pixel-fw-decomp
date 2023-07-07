@@ -56,7 +56,7 @@
 
     iput-object p2, p0, Lcom/google/android/settings/biometrics/face/anim/curve/GridState;->mEdgePaint:Landroid/graphics/Paint;
 
-    const v0, 0x7f0a00bf
+    sget v0, Lcom/android/settings/R$color;->face_enroll_grid:I
 
     .line 38
     invoke-virtual {p1, v0}, Landroid/content/Context;->getColor(I)I
