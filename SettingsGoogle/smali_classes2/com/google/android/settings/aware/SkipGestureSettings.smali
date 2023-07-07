@@ -14,7 +14,7 @@
     .line 32
     new-instance v0, Lcom/google/android/settings/aware/SkipGestureSettings$1;
 
-    const v1, 0x7f1600e6
+    sget v1, Lcom/android/settings/R$xml;->skip_gesture_settings:I
 
     invoke-direct {v0, v1}, Lcom/google/android/settings/aware/SkipGestureSettings$1;-><init>(I)V
 
@@ -53,7 +53,7 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f1600e6
+    sget p0, Lcom/android/settings/R$xml;->skip_gesture_settings:I
 
     return p0
 .end method

@@ -117,7 +117,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f040a49
+    sget v0, Lcom/android/settings/R$string;->gesture_skip_direction_rtl:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -133,7 +133,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f040a48
+    sget v0, Lcom/android/settings/R$string;->gesture_skip_direction_ltr:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
