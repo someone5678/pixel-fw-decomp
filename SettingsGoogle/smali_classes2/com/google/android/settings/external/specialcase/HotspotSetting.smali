@@ -234,7 +234,7 @@
 .method private getIconResource()I
     .locals 0
 
-    const p0, 0x7f02029e
+    sget p0, Lcom/android/settings/R$drawable;->ic_hotspot:I
 
     return p0
 .end method
@@ -242,7 +242,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f040ea1
+    sget p0, Lcom/android/settings/R$string;->network_dashboard_title:I
 
     .line 143
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -359,7 +359,7 @@
 
     const-string v3, "enable_wifi_ap"
 
-    const v6, 0x7f040de1
+    sget v6, Lcom/android/settings/R$string;->menu_key_network:I
 
     move-object v1, p0
 
@@ -427,7 +427,7 @@
 
     const-string v4, "enable_wifi_ap"
 
-    const v7, 0x7f040de1
+    sget v7, Lcom/android/settings/R$string;->menu_key_network:I
 
     move-object v2, p0
 
