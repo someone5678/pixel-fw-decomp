@@ -48,9 +48,9 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f02039c
+    sget v3, Lcom/android/settings/R$drawable;->ic_security_empty:I
 
-    const v4, 0x7f02039c
+    sget v4, Lcom/android/settings/R$drawable;->ic_security_empty:I
 
     move-object v0, v6
 
@@ -67,9 +67,9 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0203a0
+    sget v3, Lcom/android/settings/R$drawable;->ic_security_null_state:I
 
-    const v4, 0x7f0203a0
+    sget v4, Lcom/android/settings/R$drawable;->ic_security_null_state:I
 
     move-object v0, v8
 
@@ -84,9 +84,9 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f02039d
+    sget v3, Lcom/android/settings/R$drawable;->ic_security_info:I
 
-    const v4, 0x7f02039e
+    sget v4, Lcom/android/settings/R$drawable;->ic_security_info_outline:I
 
     move-object v0, v9
 
@@ -103,9 +103,9 @@
 
     const/4 v12, 0x3
 
-    const v13, 0x7f0203a1
+    sget v13, Lcom/android/settings/R$drawable;->ic_security_recommendation:I
 
-    const v14, 0x7f0203a2
+    sget v14, Lcom/android/settings/R$drawable;->ic_security_recommendation_outline:I
 
     move-object v10, v0
 
@@ -122,9 +122,9 @@
 
     const/16 v18, 0x4
 
-    const v19, 0x7f0203a3
+    sget v19, Lcom/android/settings/R$drawable;->ic_security_warn:I
 
-    const v20, 0x7f0203a4
+    sget v20, Lcom/android/settings/R$drawable;->ic_security_warn_outline:I
 
     move-object/from16 v16, v1
 

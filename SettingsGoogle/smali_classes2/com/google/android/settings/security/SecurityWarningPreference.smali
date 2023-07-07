@@ -93,11 +93,11 @@
 .method private static synthetic lambda$setSecurityWarning$2(Landroid/os/Bundle;Lcom/android/settings/SettingsPreferenceFragment;Landroid/view/View;)V
     .locals 3
 
-    const p2, 0x7f041231
+    sget p2, Lcom/android/settings/R$string;->security_dismiss_dialog_title:I
 
     const/4 v0, 0x0
 
-    const v1, 0x7f041230
+    sget v1, Lcom/android/settings/R$string;->security_dismiss_dialog_dismiss_button:I
 
     const/high16 v2, 0x1040000
 

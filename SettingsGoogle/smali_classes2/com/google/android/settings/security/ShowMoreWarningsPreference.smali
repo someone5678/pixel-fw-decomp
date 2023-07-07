@@ -25,7 +25,7 @@
     .line 26
     invoke-direct {p0, p1, p2}, Landroidx/preference/Preference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    const p1, 0x7f0601b6
+    sget p1, Lcom/android/settings/R$layout;->preference_security_show_warnings:I
 
     .line 27
     invoke-virtual {p0, p1}, Landroidx/preference/Preference;->setLayoutResource(I)V
@@ -41,7 +41,7 @@
     .line 32
     invoke-super {p0, p1}, Landroidx/preference/Preference;->onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
 
-    const v0, 0x7f0d0573
+    sget v0, Lcom/android/settings/R$id;->show_more_title:I
 
     .line 33
     invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;->findViewById(I)Landroid/view/View;

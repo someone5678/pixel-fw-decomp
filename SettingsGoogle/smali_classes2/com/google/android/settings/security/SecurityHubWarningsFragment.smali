@@ -142,7 +142,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f13004c
+    sget v5, Lcom/android/settings/R$plurals;->security_settings_hub_warnings_title:I
 
     const/4 v6, 0x1
 
@@ -201,7 +201,7 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f1600da
+    sget p0, Lcom/android/settings/R$xml;->security_hub_warnings:I
 
     return p0
 .end method

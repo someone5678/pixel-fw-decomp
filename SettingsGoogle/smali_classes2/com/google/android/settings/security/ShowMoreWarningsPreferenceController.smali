@@ -134,7 +134,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f13004b
+    sget v4, Lcom/android/settings/R$plurals;->security_settings_hub_show_warnings_preference:I
 
     new-array v5, v2, [Ljava/lang/Object;
 

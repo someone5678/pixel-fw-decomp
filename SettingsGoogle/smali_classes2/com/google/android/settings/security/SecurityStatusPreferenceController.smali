@@ -110,7 +110,7 @@
     .line 33
     check-cast p1, Lcom/android/settingslib/widget/LayoutPreference;
 
-    const v0, 0x7f0d05bd
+    sget v0, Lcom/android/settings/R$id;->status_image:I
 
     .line 34
     invoke-virtual {p1, v0}, Lcom/android/settingslib/widget/LayoutPreference;->findViewById(I)Landroid/view/View;
@@ -130,7 +130,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    const v0, 0x7f0d05bf
+    sget v0, Lcom/android/settings/R$id;->status_title:I
 
     .line 36
     invoke-virtual {p1, v0}, Lcom/android/settingslib/widget/LayoutPreference;->findViewById(I)Landroid/view/View;
@@ -146,7 +146,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v0, 0x7f0d05be
+    sget v0, Lcom/android/settings/R$id;->status_summary:I
 
     .line 38
     invoke-virtual {p1, v0}, Lcom/android/settingslib/widget/LayoutPreference;->findViewById(I)Landroid/view/View;

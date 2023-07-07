@@ -78,7 +78,7 @@
     .line 190
     new-instance v0, Lcom/google/android/settings/security/SecurityHubDashboard$1;
 
-    const v1, 0x7f1600d9
+    sget v1, Lcom/android/settings/R$xml;->security_hub_dashboard:I
 
     invoke-direct {v0, v1}, Lcom/google/android/settings/security/SecurityHubDashboard$1;-><init>(I)V
 
@@ -609,7 +609,7 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f1600d9
+    sget p0, Lcom/android/settings/R$xml;->security_hub_dashboard:I
 
     return p0
 .end method
