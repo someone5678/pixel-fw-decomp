@@ -256,7 +256,7 @@
     .line 172
     iget-object v1, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f040bf3
+    sget v3, Lcom/android/settings/R$string;->keywords_sound_amplifier:I
 
     .line 175
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -265,7 +265,7 @@
 
     iget-object v3, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f040bd8
+    sget v5, Lcom/android/settings/R$string;->keywords_live_transcribe:I
 
     .line 177
     invoke-virtual {v3, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -274,7 +274,7 @@
 
     iget-object v5, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v6, 0x7f040bf4
+    sget v6, Lcom/android/settings/R$string;->keywords_sound_notifications:I
 
     .line 179
     invoke-virtual {v5, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -407,7 +407,7 @@
     .line 110
     iget-object v1, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f040bff
+    sget v3, Lcom/android/settings/R$string;->keywords_talkback:I
 
     .line 113
     invoke-virtual {v1, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -416,7 +416,7 @@
 
     iget-object v3, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f040b88
+    sget v5, Lcom/android/settings/R$string;->keywords_accessibility_menu:I
 
     .line 115
     invoke-virtual {v3, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -425,7 +425,7 @@
 
     iget-object v5, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v7, 0x7f040bf1
+    sget v7, Lcom/android/settings/R$string;->keywords_select_to_speak:I
 
     .line 117
     invoke-virtual {v5, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -434,7 +434,7 @@
 
     iget-object v7, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v9, 0x7f040bfd
+    sget v9, Lcom/android/settings/R$string;->keywords_switch_access:I
 
     .line 119
     invoke-virtual {v7, v9}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -443,7 +443,7 @@
 
     iget-object v9, p0, Lcom/google/android/settings/accessibility/AccessibilitySearchFeatureProviderGoogleImpl$SearchIndexableRawHelper;->mContext:Landroid/content/Context;
 
-    const v10, 0x7f040c09
+    sget v10, Lcom/android/settings/R$string;->keywords_voice_access:I
 
     .line 121
     invoke-virtual {v9, v10}, Landroid/content/Context;->getString(I)Ljava/lang/String;
