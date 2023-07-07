@@ -77,7 +77,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f040c62
+    sget p0, Lcom/android/settings/R$string;->location_settings_title:I
 
     .line 110
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -212,7 +212,7 @@
 
     const-string v3, "location"
 
-    const v6, 0x7f040de0
+    sget v6, Lcom/android/settings/R$string;->menu_key_location:I
 
     move-object v1, p0
 
@@ -307,7 +307,7 @@
 
     const-string v3, "location"
 
-    const v6, 0x7f040de0
+    sget v6, Lcom/android/settings/R$string;->menu_key_location:I
 
     move-object v1, p0
 
