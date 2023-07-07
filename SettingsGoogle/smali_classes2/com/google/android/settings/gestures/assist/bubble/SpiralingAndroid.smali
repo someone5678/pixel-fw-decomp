@@ -89,7 +89,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0201e2
+    sget v1, Lcom/android/settings/R$drawable;->ic_android_black_24dp:I
 
     const/4 v2, 0x0
 
