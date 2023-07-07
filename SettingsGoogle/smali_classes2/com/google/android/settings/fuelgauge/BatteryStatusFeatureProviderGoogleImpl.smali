@@ -154,12 +154,12 @@
 
     if-eqz v3, :cond_0
 
-    const v3, 0x7f041185
+    sget v3, Lcom/android/settings/R$string;->reverse_charging_is_on_and_discharging_summary:I
 
     goto :goto_0
 
     :cond_0
-    const v3, 0x7f041184
+    sget v3, Lcom/android/settings/R$string;->reverse_charging_is_on_and_charging_summary:I
 
     :goto_0
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -179,7 +179,7 @@
     :cond_1
     iget-object p0, p0, Lcom/android/settings/fuelgauge/BatteryStatusFeatureProviderImpl;->mContext:Landroid/content/Context;
 
-    const v4, 0x7f0403f9
+    sget v4, Lcom/android/settings/R$string;->battery_state_and_duration:I
 
     const/4 v5, 0x2
 

@@ -117,7 +117,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0401ca
+    sget v0, Lcom/android/settings/R$string;->adaptive_charging_time_estimate:I
 
     const/4 v1, 0x1
 

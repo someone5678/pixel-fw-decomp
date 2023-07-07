@@ -124,12 +124,12 @@
     return-void
 
     :cond_1
-    const p1, 0x7f0601f4
+    sget p1, Lcom/android/settings/R$layout;->reverse_charging_bottom_sheet:I
 
     .line 37
     invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
 
-    const p1, 0x7f0d045b
+    sget p1, Lcom/android/settings/R$id;->ok_btn:I
 
     .line 38
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -138,7 +138,7 @@
 
     check-cast p1, Landroid/widget/Button;
 
-    const v0, 0x7f0d037b
+    sget v0, Lcom/android/settings/R$id;->learn_more_btn:I
 
     .line 39
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -147,7 +147,7 @@
 
     check-cast v0, Landroid/widget/Button;
 
-    const v1, 0x7f0d0676
+    sget v1, Lcom/android/settings/R$id;->toolbar_title:I
 
     .line 40
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -156,7 +156,7 @@
 
     check-cast v1, Landroid/widget/TextView;
 
-    const v2, 0x7f0d02cd
+    sget v2, Lcom/android/settings/R$id;->header_subtitle:I
 
     .line 41
     invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0d01a1
+    sget v5, Lcom/android/settings/R$id;->content_frame:I
 
     invoke-virtual {v4, v5, v3}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
@@ -202,7 +202,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f041190
+    sget p1, Lcom/android/settings/R$string;->reverse_charging_title:I
 
     .line 47
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -218,7 +218,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const p1, 0x7f041182
+    sget p1, Lcom/android/settings/R$string;->reverse_charging_instructions_title:I
 
     .line 49
     invoke-virtual {p0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
