@@ -31,7 +31,7 @@
 .method getDialogDisabledMessage()I
     .locals 0
 
-    const p0, 0x7f04174a
+    sget p0, Lcom/android/settings/R$string;->wake_screen_aware_disabled_info_dialog_content:I
 
     return p0
 .end method
@@ -39,7 +39,7 @@
 .method public getGestureDialogMessage()I
     .locals 0
 
-    const p0, 0x7f04174b
+    sget p0, Lcom/android/settings/R$string;->wake_screen_aware_off_dialog_content:I
 
     return p0
 .end method
@@ -47,7 +47,7 @@
 .method public getGestureDialogTitle()I
     .locals 0
 
-    const p0, 0x7f04174c
+    sget p0, Lcom/android/settings/R$string;->wake_screen_aware_off_dialog_title:I
 
     return p0
 .end method
