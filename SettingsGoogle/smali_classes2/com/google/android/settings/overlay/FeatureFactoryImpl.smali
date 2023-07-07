@@ -490,7 +490,7 @@
 .method public getSurveyFeatureProvider(Landroid/content/Context;)Lcom/android/settings/overlay/SurveyFeatureProvider;
     .locals 3
 
-    const v0, 0x7f0406e8
+    sget v0, Lcom/android/settings/R$string;->config_settingsintelligence_package_name:I
 
     .line 158
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
