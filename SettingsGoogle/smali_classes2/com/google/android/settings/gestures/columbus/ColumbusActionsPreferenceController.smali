@@ -165,26 +165,23 @@
 
     sput-object v0, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->VALUE_TO_TITLE_MAP:Ljava/util/Map;
 
+    invoke-static {}, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->getActionValueResIds()[I
+
+    move-result-object v0
+
+    sput-object v0, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->ACTION_VALUE_RES_IDS:[I
+
+    invoke-static {}, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->getActionTitleResIds()[I
+
+    move-result-object v0
+
+    sput-object v0, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->ACTION_TITLE_RES_IDS:[I
+
     const/4 v0, 0x7
 
     new-array v1, v0, [I
 
-    .line 63
     fill-array-data v1, :array_0
-
-    sput-object v1, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->ACTION_VALUE_RES_IDS:[I
-
-    new-array v1, v0, [I
-
-    .line 73
-    fill-array-data v1, :array_1
-
-    sput-object v1, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->ACTION_TITLE_RES_IDS:[I
-
-    new-array v1, v0, [I
-
-    .line 83
-    fill-array-data v1, :array_2
 
     sput-object v1, Lcom/google/android/settings/gestures/columbus/ColumbusActionsPreferenceController;->ACTION_METRICS:[I
 
@@ -232,28 +229,6 @@
     nop
 
     :array_0
-    .array-data 4
-        0x7f04069e
-        0x7f04068f
-        0x7f04069c
-        0x7f04069a
-        0x7f040697
-        0x7f040691
-        0x7f040695
-    .end array-data
-
-    :array_1
-    .array-data 4
-        0x7f04069d
-        0x7f04068e
-        0x7f04069b
-        0x7f040699
-        0x7f040696
-        0x7f040690
-        0x7f040694
-    .end array-data
-
-    :array_2
     .array-data 4
         0x6cf
         0x6ce
@@ -376,6 +351,110 @@
     check-cast p0, Ljava/lang/String;
 
     return-object p0
+.end method
+
+.method private static getActionTitleResIds()[I
+    .locals 3
+
+    const/4 v0, 0x7
+
+    new-array v0, v0, [I
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_screenshot_title:I
+
+    const/4 v2, 0x0
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_assistant_title:I
+
+    const/4 v2, 0x1
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_play_pause_title:I
+
+    const/4 v2, 0x2
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_overview_title:I
+
+    const/4 v2, 0x3
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_notification_title:I
+
+    const/4 v2, 0x4
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_flashlight_title:I
+
+    const/4 v2, 0x5
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_launch_title:I
+
+    const/4 v2, 0x6
+
+    aput v1, v0, v2
+
+    return-object v0
+.end method
+
+.method private static getActionValueResIds()[I
+    .locals 3
+
+    const/4 v0, 0x7
+
+    new-array v0, v0, [I
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_screenshot_value:I
+
+    const/4 v2, 0x0
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_assistant_value:I
+
+    const/4 v2, 0x1
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_play_pause_value:I
+
+    const/4 v2, 0x2
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_overview_value:I
+
+    const/4 v2, 0x3
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_notification_value:I
+
+    const/4 v2, 0x4
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_flashlight_value:I
+
+    const/4 v2, 0x5
+
+    aput v1, v0, v2
+
+    sget v1, Lcom/android/settings/R$string;->columbus_setting_action_launch_value:I
+
+    const/4 v2, 0x6
+
+    aput v1, v0, v2
+
+    return-object v0
 .end method
 
 .method static getColumbusAction(Landroid/content/Context;)Ljava/lang/String;
