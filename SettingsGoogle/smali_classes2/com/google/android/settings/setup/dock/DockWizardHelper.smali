@@ -99,12 +99,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1402ca
+    sget v0, Lcom/android/settings/R$style;->SudThemeGlifV4_DayNight:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1402cb
+    sget v0, Lcom/android/settings/R$style;->SudThemeGlifV4_Light:I
 
     .line 53
     :goto_0

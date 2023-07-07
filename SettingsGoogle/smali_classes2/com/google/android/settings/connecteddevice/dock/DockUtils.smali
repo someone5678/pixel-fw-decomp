@@ -17,21 +17,21 @@
 
     move-result-object v0
 
-    const v1, 0x7f020230
+    sget v1, Lcom/android/settings/R$drawable;->ic_dock_24dp:I
 
     .line 40
     invoke-virtual {p0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    const v2, 0x7f010114
+    sget v2, Lcom/android/settings/R$array;->wlc_icon_fg_colors:I
 
     .line 41
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getIntArray(I)[I
 
     move-result-object v2
 
-    const v3, 0x7f010113
+    sget v3, Lcom/android/settings/R$array;->wlc_icon_bg_colors:I
 
     .line 42
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getIntArray(I)[I
