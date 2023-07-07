@@ -75,12 +75,12 @@
 
     if-eqz p0, :cond_0
 
-    const p0, 0x7f040a46
+    sget p0, Lcom/android/settings/R$string;->gesture_silence_on_summary:I
 
     goto :goto_0
 
     :cond_0
-    const p0, 0x7f040a41
+    sget p0, Lcom/android/settings/R$string;->gesture_setting_off:I
 
     :goto_0
     invoke-virtual {v0, p0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
