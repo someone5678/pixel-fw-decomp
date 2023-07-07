@@ -70,7 +70,7 @@
 .method public getText()I
     .locals 0
 
-    const p0, 0x7f040a37
+    sget p0, Lcom/android/settings/R$string;->gesture_aware_footer:I
 
     return p0
 .end method

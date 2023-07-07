@@ -14,7 +14,7 @@
     .line 51
     new-instance v0, Lcom/google/android/settings/aware/TapGestureSettings$1;
 
-    const v1, 0x7f1600f7
+    sget v1, Lcom/android/settings/R$xml;->tap_gesture_settings:I
 
     invoke-direct {v0, v1}, Lcom/google/android/settings/aware/TapGestureSettings$1;-><init>(I)V
 
@@ -54,6 +54,7 @@
     .locals 0
 
     const p0, 0x7f1600f7
+    sget p0, Lcom/android/settings/R$xml;->tap_gesture_settings:I
 
     return p0
 .end method
