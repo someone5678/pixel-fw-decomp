@@ -63,9 +63,9 @@
 
     move-result-object p1
 
-    const p2, 0x7f07003d
+    sget p2, Lcom/android/settings/R$anim;->sud_slide_next_in:I
 
-    const p4, 0x7f07003e
+    sget p4, Lcom/android/settings/R$anim;->sud_slide_next_out:I
 
     invoke-virtual {p1, p2, p4}, Landroid/app/Activity;->overridePendingTransition(II)V
 
@@ -247,22 +247,22 @@
 
     if-eqz v1, :cond_1
 
-    const p1, 0x7f041284
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_timeout_title:I
 
     .line 80
     invoke-virtual {v4, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setTitle(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
-    const p1, 0x7f041283
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_timeout_message:I
 
     .line 81
     invoke-virtual {v4, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setMessage(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
-    const p1, 0x7f041286
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_timeout_use_fast_setup:I
 
     .line 82
     invoke-virtual {v4, p1, v3}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
-    const p1, 0x7f041285
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_timeout_try_again:I
 
     .line 84
     invoke-virtual {v4, p1, v3}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -274,19 +274,19 @@
 
     if-ne v0, v1, :cond_3
 
-    const p1, 0x7f04128a
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_too_hot_title:I
 
     .line 87
     invoke-virtual {v4, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setTitle(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
-    const p1, 0x7f041288
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_too_hot_message:I
 
     .line 88
     invoke-virtual {v4, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setMessage(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
     if-eqz v2, :cond_2
 
-    const p1, 0x7f041289
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_too_hot_skip_face_unlock:I
 
     .line 90
     invoke-virtual {v4, p1, v3}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -294,7 +294,7 @@
     goto :goto_1
 
     :cond_2
-    const p1, 0x7f041287
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_too_hot_exit_setup:I
 
     .line 94
     invoke-virtual {v4, p1, v3}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -302,7 +302,7 @@
     goto :goto_1
 
     :cond_3
-    const v0, 0x7f041251
+    sget v0, Lcom/android/settings/R$string;->security_settings_face_enroll_error_dialog_title:I
 
     .line 98
     invoke-virtual {v4, v0}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setTitle(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -310,7 +310,7 @@
     .line 99
     invoke-virtual {v4, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setMessage(Ljava/lang/CharSequence;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
-    const p1, 0x7f041245
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_dialog_ok:I
 
     .line 100
     invoke-virtual {v4, p1, v3}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
