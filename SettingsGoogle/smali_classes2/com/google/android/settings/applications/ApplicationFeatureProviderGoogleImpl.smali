@@ -459,7 +459,7 @@
 
     sget-object v3, Landroid/icu/text/MeasureFormat$FormatWidth;->NARROW:Landroid/icu/text/MeasureFormat$FormatWidth;
 
-    const v4, 0x7f0408eb
+    sget v4, Lcom/android/settings/R$string;->duration_less_than_one_minute:I
 
     const/4 v5, 0x0
 
@@ -470,7 +470,7 @@
     .line 91
     iget-object p0, p0, Lcom/google/android/settings/applications/ApplicationFeatureProviderGoogleImpl;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f0411e7
+    sget v3, Lcom/android/settings/R$string;->screen_time_summary_usage_today:I
 
     const/4 v4, 0x1
 
