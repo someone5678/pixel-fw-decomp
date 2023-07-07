@@ -250,12 +250,12 @@
     .line 38
     invoke-static {p0}, Lcom/google/android/setupdesign/util/ThemeHelper;->trySetDynamicColor(Landroid/content/Context;)Z
 
-    const p1, 0x7f06005c
+    sget p1, Lcom/android/settings/R$layout;->assist_gesture_training_intro_activity:I
 
     .line 39
     invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
 
-    const p1, 0x7f0d0375
+    sget p1, Lcom/android/settings/R$id;->layout:I
 
     .line 40
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -278,7 +278,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0402d1
+    sget v1, Lcom/android/settings/R$string;->assist_gesture_enrollment_do_it_later:I
 
     .line 44
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -301,7 +301,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f14028c
+    sget v2, Lcom/android/settings/R$style;->SudGlifButton_Secondary:I
 
     .line 47
     invoke-virtual {v0, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -321,7 +321,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f041942
+    sget v2, Lcom/android/settings/R$string;->wizard_next:I
 
     .line 53
     invoke-virtual {v0, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -344,7 +344,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f14028b
+    sget v2, Lcom/android/settings/R$style;->SudGlifButton_Primary:I
 
     .line 56
     invoke-virtual {v0, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -377,7 +377,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0402d4
+    sget v0, Lcom/android/settings/R$string;->assist_gesture_enrollment_settings:I
 
     .line 62
     invoke-virtual {p1, p0, v0}, Lcom/google/android/setupcompat/template/FooterButton;->setText(Landroid/content/Context;I)V

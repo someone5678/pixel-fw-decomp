@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f040a32
+    sget v1, Lcom/android/settings/R$string;->gesture_assist_component:I
 
     .line 90
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -176,7 +176,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f040a34
+    sget v0, Lcom/android/settings/R$string;->gesture_assist_deskclock_permission:I
 
     const/4 v1, 0x0
 
@@ -196,7 +196,7 @@
     .line 56
     iget-object p0, p0, Landroid/content/pm/PermissionInfo;->packageName:Ljava/lang/String;
 
-    const v0, 0x7f040a33
+    sget v0, Lcom/android/settings/R$string;->gesture_assist_deskclock_package:I
 
     .line 57
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

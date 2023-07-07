@@ -165,7 +165,7 @@
 .method protected onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V
     .locals 2
 
-    const v0, 0x7f140212
+    sget v0, Lcom/android/settings/R$style;->SetupWizardPartnerResource:I
 
     const/4 v1, 0x1
 

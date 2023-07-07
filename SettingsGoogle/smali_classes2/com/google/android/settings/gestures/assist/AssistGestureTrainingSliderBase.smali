@@ -108,7 +108,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b009a
+    sget v2, Lcom/android/settings/R$dimen;->assist_gesture_error_text_disappear_distance:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -249,7 +249,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0402e3
+    sget p1, Lcom/android/settings/R$string;->assist_gesture_training_enrolling_error_try_adjusting:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -263,7 +263,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0402de
+    sget p1, Lcom/android/settings/R$string;->assist_gesture_training_enrolling_error_may_cause_falsing:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -277,7 +277,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0402e2
+    sget p1, Lcom/android/settings/R$string;->assist_gesture_training_enrolling_error_squeeze_release_quickly:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -291,7 +291,7 @@
 
     move-result-object p0
 
-    const p1, 0x7f0402df
+    sget p1, Lcom/android/settings/R$string;->assist_gesture_training_enrolling_error_squeeze_bottom:I
 
     invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -466,7 +466,7 @@
     .line 80
     invoke-super {p0, p1}, Lcom/google/android/settings/gestures/assist/AssistGestureTrainingBase;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0245
+    sget p1, Lcom/android/settings/R$id;->error_message:I
 
     .line 82
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -495,7 +495,7 @@
 
     iput-object p1, p0, Lcom/google/android/settings/gestures/assist/AssistGestureTrainingSliderBase;->mFastOutLinearInInterpolator:Landroid/view/animation/Interpolator;
 
-    const p1, 0x7f0d00bf
+    sget p1, Lcom/android/settings/Rid$;->assist_gesture_sensitivity_seekbar:I
 
     .line 89
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -669,7 +669,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0099
+    sget v4, Lcom/android/settings/R$dimen;->assist_gesture_error_text_appear_distance:I
 
     .line 138
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I

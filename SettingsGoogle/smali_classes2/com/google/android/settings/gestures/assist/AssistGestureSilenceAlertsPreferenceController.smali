@@ -61,7 +61,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0402d7
+    sget v1, Lcom/android/settings/R$string;->assist_gesture_setting_enable_ring_alarm_silence_text:I
 
     .line 53
     invoke-virtual {v0, v1}, Landroidx/preference/Preference;->setSummary(I)V

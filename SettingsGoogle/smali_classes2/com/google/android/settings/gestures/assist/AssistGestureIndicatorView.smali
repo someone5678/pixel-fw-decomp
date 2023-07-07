@@ -27,7 +27,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060059
+    sget v1, Lcom/android/settings/R$layout;->assist_gesture_indicator_container:I
 
     const/4 v2, 0x0
 
@@ -67,7 +67,7 @@
     .line 45
     iget-object v0, p0, Lcom/google/android/settings/gestures/assist/AssistGestureIndicatorView;->mLayout:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0d0322
+    sget v3, Lcom/android/settings/R$id;->indicator_left:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -80,7 +80,7 @@
     .line 46
     iget-object v0, p0, Lcom/google/android/settings/gestures/assist/AssistGestureIndicatorView;->mLayout:Landroid/view/ViewGroup;
 
-    const v3, 0x7f0d0323
+    sget v3, Lcom/android/settings/R$id;->indicator_right:I
 
     invoke-virtual {v0, v3}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

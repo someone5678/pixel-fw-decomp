@@ -237,7 +237,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e0015
+    sget v0, Lcom/android/settings/R$integer;->gesture_assist_sensitivity_max:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -649,7 +649,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f0e0015
+    sget v0, Lcom/android/settings/R$integer;->gesture_assist_sensitivity_max:I
 
     invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -669,7 +669,7 @@
 .method public getSliceHighlightMenuRes()I
     .locals 0
 
-    const p0, 0x7f040de9
+    sget p0, Lcom/android/settings/R$string;->menu_key_system:I
 
     return p0
 .end method
