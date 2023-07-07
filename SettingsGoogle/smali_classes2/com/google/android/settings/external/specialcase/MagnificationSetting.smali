@@ -70,7 +70,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f040142
+    sget p0, Lcom/android/settings/R$string;->accessibility_settings_title:I
 
     .line 127
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -151,7 +151,7 @@
 
     const-string v3, "magnification_preference_screen"
 
-    const v6, 0x7f040dd8
+    sget v6, Lcom/android/settings/R$string;->menu_key_accessibility:I
 
     move-object v1, p0
 
@@ -255,7 +255,7 @@
 
     const-string v4, "magnification_preference_screen"
 
-    const v7, 0x7f040dd8
+    sget v7, Lcom/android/settings/R$string;->menu_key_accessibility:I
 
     move-object v2, p0
 
