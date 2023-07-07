@@ -49,7 +49,7 @@
     .line 292
     iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
 
-    const v0, 0x7f02035f
+    sget v0, Lcom/android/settings/R$drawable;->ic_no_screen_saver:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -64,7 +64,7 @@
     .line 308
     iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
 
-    const v0, 0x7f02048b
+    sget v0, Lcom/android/settings/R$drawable;->nest_eco_leaf:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -79,7 +79,7 @@
     .line 287
     iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
 
-    const v0, 0x7f0408d8
+    sget v0, Lcom/android/settings/R$string;->dream_no_screen_saver_description:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -94,7 +94,7 @@
     .line 282
     iget-object p0, p0, Lcom/google/android/settings/dream/DreamSetupActivity$NoDreamItem;->this$0:Lcom/google/android/settings/dream/DreamSetupActivity;
 
-    const v0, 0x7f0408d7
+    sget v0, Lcom/android/settings/R$string;->dream_no_screen_saver_caption:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

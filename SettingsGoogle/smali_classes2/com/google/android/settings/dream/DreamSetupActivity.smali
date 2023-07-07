@@ -519,7 +519,7 @@
     .line 71
     invoke-static {p0}, Lcom/google/android/settings/setup/dock/DockWizardHelper;->setTheme(Landroid/app/Activity;)V
 
-    const p1, 0x7f0600d8
+    sget p1, Lcom/android/settings/R$layout;->dream_setup_layout:I
 
     .line 73
     invoke-virtual {p0, p1}, Landroid/app/Activity;->setContentView(I)V
@@ -529,7 +529,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f01006f
+    sget v0, Lcom/android/settings/R$array;->config_preinstalled_dream_components:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -671,12 +671,12 @@
 
     invoke-direct {p1}, Landroid/util/SparseIntArray;-><init>()V
 
-    const v3, 0x7f0600d3
+    sget v3, Lcom/android/settings/R$layout;->dream_item_suw_layout:I
 
     .line 100
     invoke-virtual {p1, v2, v3}, Landroid/util/SparseIntArray;->append(II)V
 
-    const v3, 0x7f0600d4
+    sget v3, Lcom/android/settings/R$layout;->dream_no_screensaver_layout:I
 
     .line 101
     invoke-virtual {p1, v1, v3}, Landroid/util/SparseIntArray;->append(II)V
@@ -686,7 +686,7 @@
 
     invoke-direct {v3, p1, v0}, Lcom/android/settings/dream/DreamAdapter;-><init>(Landroid/util/SparseIntArray;Ljava/util/List;)V
 
-    const p1, 0x7f0d0568
+    sget p1, Lcom/android/settings/R$id;->setup_wizard_layout:I
 
     .line 104
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -718,7 +718,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0551
+    sget v5, Lcom/android/settings/R$dimen;->suw_dream_item_min_column_width:I
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -760,7 +760,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f041942
+    sget v1, Lcom/android/settings/R$string;->wizard_next:I
 
     .line 124
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -774,7 +774,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f14028b
+    sget v1, Lcom/android/settings/R$style;->SudGlifButton_Primary:I
 
     .line 126
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -810,7 +810,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f041385
+    sget v0, Lcom/android/settings/R$string;->sim_action_no_thanks:I
 
     .line 133
     invoke-virtual {p0, v0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -824,7 +824,7 @@
 
     move-result-object p0
 
-    const v0, 0x7f14028c
+    sget v0, Lcom/android/settings/R$style;->SudGlifButton_Secondary:I
 
     .line 135
     invoke-virtual {p0, v0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
