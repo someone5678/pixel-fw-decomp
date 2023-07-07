@@ -53,7 +53,6 @@
 .method protected getPreferenceScreenResId()I
     .locals 0
 
-    const p0, 0x7f160049
     sget p0, Lcom/android/settings/R$xml;->clear_calling_settings:I
 
     return p0

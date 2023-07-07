@@ -34,7 +34,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f040140
+    sget p0, Lcom/android/settings/R$string;->accessibility_settings:I
 
     .line 94
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -106,7 +106,7 @@
 
     const-string v2, "color_inversion"
 
-    const v5, 0x7f040dd8
+    sget v5, Lcom/android/settings/R$string;->menu_key_accessibility:I
 
     move-object v0, p0
 
@@ -187,7 +187,7 @@
 
     const-string v3, "color_inversion"
 
-    const v6, 0x7f040dd8
+    sget v6, Lcom/android/settings/R$string;->menu_key_accessibility:I
 
     move-object v1, p0
 
