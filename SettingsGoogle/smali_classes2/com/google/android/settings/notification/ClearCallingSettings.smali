@@ -14,7 +14,7 @@
     .line 33
     new-instance v0, Lcom/android/settings/search/BaseSearchIndexProvider;
 
-    const v1, 0x7f160049
+    sget v1, Lcom/android/settings/R$xml;->clear_calling_settings:I
 
     invoke-direct {v0, v1}, Lcom/android/settings/search/BaseSearchIndexProvider;-><init>(I)V
 
@@ -54,6 +54,7 @@
     .locals 0
 
     const p0, 0x7f160049
+    sget p0, Lcom/android/settings/R$xml;->clear_calling_settings:I
 
     return p0
 .end method

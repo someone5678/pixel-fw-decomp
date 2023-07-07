@@ -60,7 +60,7 @@
     .line 32
     iget-object v0, p0, Lcom/android/settingslib/core/AbstractPreferenceController;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f04064c
+    sget v1, Lcom/android/settings/R$string;->clear_calling_footer_learn_more_link:I
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
