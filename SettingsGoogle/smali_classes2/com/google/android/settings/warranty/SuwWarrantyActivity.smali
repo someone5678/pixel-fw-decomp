@@ -168,7 +168,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f041500
+    sget v1, Lcom/android/settings/R$string;->suw_warranty_next_button_text:I
 
     .line 177
     invoke-virtual {p0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -182,7 +182,7 @@
 
     move-result-object p0
 
-    const v1, 0x7f14028b
+    sget v1, Lcom/android/settings/R$style;->SudGlifButton_Primary:I
 
     .line 179
     invoke-virtual {p0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -282,12 +282,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f1402ca
+    sget v0, Lcom/android/settings/R$style;->SudThemeGlifV4_DayNight:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f1402cb
+    sget v0, Lcom/android/settings/R$style;->SudThemeGlifV4_Light:I
 
     .line 128
     :goto_0
@@ -462,12 +462,12 @@
 .method private setupLayout()V
     .locals 2
 
-    const v0, 0x7f0602c9
+    sget v0, Lcom/android/settings/R$layout;->suw_warranty_layout:I
 
     .line 141
     invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V
 
-    const v0, 0x7f0d0568
+    sget v0, Lcom/android/settings/R$id;->setup_wizard_layout:I
 
     .line 142
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -483,7 +483,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0414fe
+    sget v1, Lcom/android/settings/R$string;->suw_warranty_description:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -503,7 +503,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0414ff
+    sget v1, Lcom/android/settings/R$string;->suw_warranty_description_content:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -512,7 +512,7 @@
     .line 148
     iget-object p0, p0, Lcom/google/android/settings/warranty/SuwWarrantyActivity;->mGlifLayout:Lcom/google/android/setupdesign/GlifLayout;
 
-    const v1, 0x7f0d0601
+    sget v1, Lcom/android/settings/R$id;->sud_layout_subtitle:I
 
     invoke-virtual {p0, v1}, Lcom/google/android/setupcompat/internal/TemplateLayout;->findManagedViewById(I)Landroid/view/View;
 
@@ -540,7 +540,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0592
+    sget v3, Lcom/android/settings/R$dimen;->suw_warranty_dialog_textview_padding_left:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -551,7 +551,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0591
+    sget v4, Lcom/android/settings/R$dimen;->suw_warranty_dialog_textview_padding_bottom:I
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -565,7 +565,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0b0593
+    sget v3, Lcom/android/settings/R$dimen;->suw_warranty_dialog_textview_text_size:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getDimension(I)F
 
@@ -574,7 +574,7 @@
     .line 244
     invoke-virtual {p1, v1, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    const v1, 0x7f0a0418
+    sget v1, Lcom/android/settings/R$color;->sud_system_primary_text:I
 
     .line 246
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getColor(I)I
@@ -616,7 +616,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0602c8
+    sget v1, Lcom/android/settings/R$layout;->suw_warranty_dialog_layout:I
 
     const/4 v2, 0x0
 
@@ -624,7 +624,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d0632
+    sget v1, Lcom/android/settings/R$id;->suw_warranty_dialog:I
 
     .line 214
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -686,7 +686,7 @@
     .line 224
     sget-object p1, Lcom/google/android/settings/warranty/SuwWarrantyActivity;->sAlertDialogBuilder:Landroid/app/AlertDialog$Builder;
 
-    const v0, 0x7f041501
+    sget v0, Lcom/android/settings/R$string;->suw_warranty_positive_button_text:I
 
     .line 225
     invoke-direct {p0}, Lcom/google/android/settings/warranty/SuwWarrantyActivity;->dialogListener()Landroid/content/DialogInterface$OnClickListener;
@@ -729,7 +729,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f040c2f
+    sget v0, Lcom/android/settings/R$string;->limited_warranty_title:I
 
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
