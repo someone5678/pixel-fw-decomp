@@ -52,7 +52,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f140188
+    sget v0, Lcom/android/settings/R$style;->MarlinColors_Blue:I
 
     .line 38
     invoke-virtual {p0, v0, v2}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
@@ -69,7 +69,7 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f14018a
+    sget v0, Lcom/android/settings/R$style;->MarlinColors_Silver:I
 
     .line 40
     invoke-virtual {p0, v0, v2}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
@@ -86,7 +86,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f140189
+    sget v0, Lcom/android/settings/R$style;->MarlinColors_Graphite:I
 
     .line 42
     invoke-virtual {p0, v0, v2}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
@@ -94,7 +94,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f140187
+    sget v0, Lcom/android/settings/R$style;->MarlinColors:I
 
     .line 44
     invoke-virtual {p0, v0, v2}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V

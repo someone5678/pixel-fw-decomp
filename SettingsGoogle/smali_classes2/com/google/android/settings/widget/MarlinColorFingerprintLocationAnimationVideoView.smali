@@ -36,7 +36,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f140188
+    sget v0, Lcom/android/settings/R$style;->MarlinColors_Blue:I
 
     goto :goto_0
 
@@ -50,7 +50,7 @@
 
     if-eqz v1, :cond_1
 
-    const v0, 0x7f14018a
+    sget v0, Lcom/android/settings/R$style;->MarlinColors_Silver:I
 
     goto :goto_0
 
@@ -64,12 +64,12 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f140189
+    sget v0, Lcom/android/settings/R$style;->MarlinColors_Graphite:I
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f140187
+    sget v0, Lcom/android/settings/R$style;->MarlinColors:I
 
     .line 36
     :goto_0
