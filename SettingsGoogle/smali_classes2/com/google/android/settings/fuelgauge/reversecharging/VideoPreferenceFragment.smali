@@ -18,7 +18,7 @@
 .method public onCreatePreferences(Landroid/os/Bundle;Ljava/lang/String;)V
     .locals 0
 
-    const p1, 0x7f1600d2
+    sget p1, Lcom/android/settings/R$xml;->reverse_charging_preference:I
 
     .line 23
     invoke-virtual {p0, p1}, Landroidx/preference/PreferenceFragmentCompat;->addPreferencesFromResource(I)V
