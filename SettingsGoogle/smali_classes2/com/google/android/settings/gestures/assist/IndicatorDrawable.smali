@@ -104,7 +104,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0a0034
+    sget v2, Lcom/android/settings/R$color;->active_edge_indicator:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
