@@ -115,7 +115,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a00cb
+    sget v3, Lcom/android/settings/R$color;->face_enroll_single_capture_rotating_4:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -128,7 +128,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a00ca
+    sget v3, Lcom/android/settings/R$color;->face_enroll_single_capture_rotating_3:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -143,7 +143,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a00c9
+    sget v3, Lcom/android/settings/R$color;->face_enroll_single_capture_rotating_2:I
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -158,7 +158,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f0a00c8
+    sget v2, Lcom/android/settings/R$color;->face_enroll_single_capture_rotating_1:I
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
