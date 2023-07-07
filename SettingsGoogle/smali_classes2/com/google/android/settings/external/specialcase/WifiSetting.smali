@@ -19,7 +19,7 @@
 .method private getIconResource()I
     .locals 0
 
-    const p0, 0x7f0203dd
+    sget p0, Lcom/android/settings/R$drawable;->ic_settings_wireless:I
 
     return p0
 .end method
@@ -27,7 +27,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f0418ac
+    sget p0, Lcom/android/settings/R$string;->wifi_settings:I
 
     .line 89
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -66,7 +66,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f040de1
+    sget v6, Lcom/android/settings/R$string;->menu_key_network:I
 
     const-string v3, "master_wifi_toggle"
 
@@ -162,7 +162,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f040de1
+    sget v6, Lcom/android/settings/R$string;->menu_key_network:I
 
     const-string v3, "master_wifi_toggle"
 
