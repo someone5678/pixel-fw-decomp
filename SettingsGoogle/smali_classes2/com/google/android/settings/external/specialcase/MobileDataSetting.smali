@@ -67,7 +67,7 @@
 .method private getIconResource()I
     .locals 0
 
-    const p0, 0x7f020355
+    sget p0, Lcom/android/settings/R$drawable;->ic_network_cell:I
 
     return p0
 .end method
@@ -75,7 +75,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f0407e4
+    sget p0, Lcom/android/settings/R$string;->data_usage_summary_title:I
 
     .line 104
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -153,7 +153,7 @@
 
     const-string v3, "mobile_data"
 
-    const v6, 0x7f040de1
+    sget v6, Lcom/android/settings/R$string;->menu_key_network:I
 
     move-object v1, p0
 
@@ -253,7 +253,7 @@
 
     const-string v4, "mobile_data"
 
-    const v7, 0x7f040de1
+    sget v7, Lcom/android/settings/R$string;->menu_key_network:I
 
     move-object v2, p0
 

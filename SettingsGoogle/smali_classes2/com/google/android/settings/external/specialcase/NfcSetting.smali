@@ -60,7 +60,7 @@
 .method private getIconResource()I
     .locals 0
 
-    const p0, 0x7f0203dd
+    sget p0, Lcom/android/settings/R$drawable;->ic_settings_wireless:I
 
     return p0
 .end method
@@ -87,7 +87,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f04070f
+    sget p0, Lcom/android/settings/R$string;->connected_devices_dashboard_title:I
 
     .line 125
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -127,7 +127,7 @@
 
     const-string v3, "nfc"
 
-    const v6, 0x7f040ddd
+    sget v6, Lcom/android/settings/R$string;->menu_key_connected_devices:I
 
     move-object v1, p0
 
@@ -233,7 +233,7 @@
 
     const-string v4, "nfc"
 
-    const v7, 0x7f040ddd
+    sget v7, Lcom/android/settings/R$string;->menu_key_connected_devices:I
 
     move-object v2, p0
 

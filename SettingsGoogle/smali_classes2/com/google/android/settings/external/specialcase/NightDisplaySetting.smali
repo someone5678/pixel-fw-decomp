@@ -27,7 +27,7 @@
 .method private getScreenTitle(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    const p0, 0x7f040041
+    sget p0, Lcom/android/settings/R$string;->night_display_title:I
 
     .line 95
     invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -79,7 +79,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f040dde
+    sget v6, Lcom/android/settings/R$string;->menu_key_display:I
 
     const-string v3, "night_display"
 
@@ -192,7 +192,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f040dde
+    sget v8, Lcom/android/settings/R$string;->menu_key_display:I
 
     const-string v5, "night_display"
 
