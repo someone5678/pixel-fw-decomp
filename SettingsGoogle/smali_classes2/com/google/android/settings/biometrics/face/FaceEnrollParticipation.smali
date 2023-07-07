@@ -78,7 +78,7 @@
 .method private getLayout()Lcom/google/android/setupdesign/GlifLayout;
     .locals 1
 
-    const v0, 0x7f0d0258
+    sget v0, Lcom/android/settings/R$id;->face_enroll_participation:I
 
     .line 179
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -179,7 +179,7 @@
     .line 249
     iput-boolean v0, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollParticipation;->mLaunchedPostureGuidance:Z
 
-    const v0, 0x7f07003f
+    sget v0, Lcom/android/settings/R$anim;->sud_stay:I
 
     .line 250
     invoke-virtual {p0, v0, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
@@ -261,7 +261,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f090013
+    sget v1, Lcom/android/settings/R$bool;->config_face_enroll_use_traffic_light:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -289,7 +289,7 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0406dd
+    sget v0, Lcom/android/settings/R$string;->config_face_enroll_traffic_light_package:I
 
     .line 231
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -396,7 +396,7 @@
 .method protected onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V
     .locals 2
 
-    const v0, 0x7f140212
+    sget v0, Lcom/android/settings/R$style;->SetupWizardPartnerResource:I
 
     const/4 v1, 0x1
 
@@ -442,7 +442,7 @@
     iput-boolean p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollParticipation;->mNextLaunched:Z
 
     :cond_0
-    const p1, 0x7f0600ec
+    sget p1, Lcom/android/settings/R$layout;->face_enroll_participation:I
 
     .line 82
     invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
@@ -465,7 +465,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f040994
+    sget v1, Lcom/android/settings/R$string;->face_enrolling_confirm_help_debug:I
 
     .line 86
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -488,7 +488,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f14028b
+    sget v1, Lcom/android/settings/R$style;->SudGlifButton_Primary:I
 
     .line 89
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -517,7 +517,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f04099e
+    sget v2, Lcom/android/settings/R$string;->face_enrolling_skip_help_debug:I
 
     .line 96
     invoke-virtual {v0, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -540,7 +540,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f14028c
+    sget v2, Lcom/android/settings/R$style;->SudGlifButton_Secondary:I
 
     .line 99
     invoke-virtual {v0, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -572,7 +572,7 @@
 
     iput p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollParticipation;->mUserId:I
 
-    const p1, 0x7f0d0078
+    sget p1, Lcom/android/settings/R$id;->agree_to_participate:I
 
     .line 104
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -688,7 +688,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0e0009
+    sget v1, Lcom/android/settings/R$integer;->config_face_enroll_supported_posture:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getInteger(I)I
 

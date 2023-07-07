@@ -192,7 +192,7 @@
 .method private getLayout()Lcom/google/android/setupdesign/GlifLayout;
     .locals 1
 
-    const v0, 0x7f0d0257
+    sget v0, Lcom/android/settings/R$id;->face_enroll_confirmation:I
 
     .line 138
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -435,7 +435,7 @@
 .method private setNonIllustrationThemeColor()V
     .locals 3
 
-    const v0, 0x7f0d02f9
+    sget v0, Lcom/android/settings/R$id;->icon_fold:I
 
     .line 266
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -444,7 +444,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    const v1, 0x7f0d0300
+    sget v1, Lcom/android/settings/R$id;->icon_light:I
 
     .line 267
     invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -572,7 +572,7 @@
 .method protected onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V
     .locals 2
 
-    const v0, 0x7f140212
+    sget v0, Lcom/android/settings/R$style;->SetupWizardPartnerResource:I
 
     const/4 v1, 0x1
 
@@ -640,7 +640,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f090012
+    sget v1, Lcom/android/settings/R$bool;->config_face_enroll_confirmation_show_illustration:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -650,12 +650,12 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0600e6
+    sget v0, Lcom/android/settings/R$layout;->face_enroll_confirmation_show_illustration:I
 
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0600e5
+    sget v0, Lcom/android/settings/R$layout;->face_enroll_confirmation_hide_illustration:I
 
     .line 74
     :goto_0
@@ -727,7 +727,7 @@
     iput p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollConfirmation;->mUserId:I
 
     :cond_2
-    const p1, 0x7f041257
+    sget p1, Lcom/android/settings/R$string;->security_settings_face_enroll_finish_title:I
 
     .line 87
     invoke-direct {p0, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollConfirmation;->setHeaderText(I)V
@@ -742,7 +742,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f04098d
+    sget v0, Lcom/android/settings/R$string;->face_confirmation_hide_illustration_description:I
 
     invoke-virtual {p1, v0}, Lcom/google/android/setupdesign/GlifLayout;->setDescriptionText(I)V
 
@@ -763,12 +763,12 @@
 
     if-eqz v0, :cond_4
 
-    const v0, 0x7f041255
+    sget v0, Lcom/android/settings/R$string;->security_settings_face_enroll_finish_description_with_bp:I
 
     goto :goto_1
 
     :cond_4
-    const v0, 0x7f041256
+    sget v0, Lcom/android/settings/R$string;->security_settings_face_enroll_finish_description_without_bp:I
 
     :goto_1
     invoke-virtual {p1, v0}, Lcom/google/android/setupdesign/GlifLayout;->setDescriptionText(I)V
@@ -801,7 +801,7 @@
 
     invoke-direct {v0, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f041246
+    sget v1, Lcom/android/settings/R$string;->security_settings_face_enroll_done:I
 
     .line 103
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -824,7 +824,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f14028b
+    sget v1, Lcom/android/settings/R$style;->SudGlifButton_Primary:I
 
     .line 106
     invoke-virtual {v0, v1}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;

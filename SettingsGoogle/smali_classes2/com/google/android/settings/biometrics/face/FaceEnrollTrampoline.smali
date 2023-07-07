@@ -27,7 +27,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f090013
+    sget v1, Lcom/android/settings/R$bool;->config_face_enroll_use_traffic_light:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -55,7 +55,7 @@
     :goto_0
     if-eqz v0, :cond_2
 
-    const v0, 0x7f0406dd
+    sget v0, Lcom/android/settings/R$string;->config_face_enroll_traffic_light_package:I
 
     .line 96
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

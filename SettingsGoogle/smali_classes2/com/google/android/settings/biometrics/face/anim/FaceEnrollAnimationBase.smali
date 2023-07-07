@@ -195,7 +195,7 @@
 
     check-cast p2, Landroid/app/Activity;
 
-    const v1, 0x7f0d025a
+    sget v1, Lcom/android/settings/R$id;->face_smiley:I
 
     invoke-virtual {p2, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -205,7 +205,7 @@
 
     iput-object p2, p0, Lcom/google/android/settings/biometrics/face/anim/FaceEnrollAnimationBase;->mFaceIcon:Landroid/widget/ImageView;
 
-    const v1, 0x7f020191
+    sget v1, Lcom/android/settings/R$drawable;->face_smiley:I
 
     .line 113
     invoke-virtual {p1, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;

@@ -178,7 +178,7 @@
     .line 124
     iput p4, p0, Lcom/google/android/settings/biometrics/face/anim/curve/CellState;->mScrimColorNotEnrolled:I
 
-    const p2, 0x7f0a00b5
+    sget p2, Lcom/android/settings/R$color;->face_enroll_cell_enrolled:I
 
     .line 126
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
@@ -187,7 +187,7 @@
 
     iput p2, p0, Lcom/google/android/settings/biometrics/face/anim/curve/CellState;->mScrimColorEnrolled:I
 
-    const p2, 0x7f0a00bc
+    sget p2, Lcom/android/settings/R$color;->face_enroll_cursor_acquired:I
 
     .line 127
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
@@ -196,7 +196,7 @@
 
     iput p2, p0, Lcom/google/android/settings/biometrics/face/anim/curve/CellState;->mCursorColorAcquired:I
 
-    const p2, 0x7f0a00bd
+    sget p2, Lcom/android/settings/R$color;->face_enroll_cursor_gone:I
 
     .line 128
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
@@ -205,7 +205,7 @@
 
     iput p2, p0, Lcom/google/android/settings/biometrics/face/anim/curve/CellState;->mCursorColorGone:I
 
-    const p3, 0x7f0a00b7
+    sget p3, Lcom/android/settings/R$color;->face_enroll_cell_no_activity_start:I
 
     .line 129
     invoke-virtual {p1, p3}, Landroid/content/Context;->getColor(I)I
@@ -214,7 +214,7 @@
 
     iput p3, p0, Lcom/google/android/settings/biometrics/face/anim/curve/CellState;->mScrimColorNoActivityStart:I
 
-    const p4, 0x7f0a00b6
+    sget p4, Lcom/android/settings/R$color;->face_enroll_cell_no_activity_end:I
 
     .line 130
     invoke-virtual {p1, p4}, Landroid/content/Context;->getColor(I)I
@@ -298,7 +298,7 @@
     goto :goto_1
 
     :cond_2
-    const p4, 0x7f0a00be
+    sget p4, Lcom/android/settings/R$color;->face_enroll_cursor_shadow:I
 
     .line 145
     invoke-virtual {p1, p4}, Landroid/content/Context;->getColor(I)I

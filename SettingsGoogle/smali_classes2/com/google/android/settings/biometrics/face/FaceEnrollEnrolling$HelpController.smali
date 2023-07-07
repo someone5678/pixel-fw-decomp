@@ -193,7 +193,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0b0190
+    sget v0, Lcom/android/settings/R$dimen;->face_error_text_appear_distance:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -423,7 +423,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0190
+    sget v2, Lcom/android/settings/R$dimen;->face_error_text_appear_distance:I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 

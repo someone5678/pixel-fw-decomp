@@ -438,7 +438,7 @@
 .method private getLayout()Lcom/google/android/setupdesign/GlifLayout;
     .locals 1
 
-    const v0, 0x7f0d0568
+    sget v0, Lcom/android/settings/R$id;->setup_wizard_layout:I
 
     .line 760
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -456,7 +456,7 @@
     .line 239
     iget-object v0, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;->mHelpController:Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling$HelpController;
 
-    const v1, 0x7f040991
+    sget v1, Lcom/android/settings/R$string;->face_enrolling_center_head:I
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -498,7 +498,7 @@
     invoke-virtual {v0, v1, v1}, Lcom/google/android/settings/biometrics/face/FaceEnrollSidecar;->logEnrollmentEnded(IZ)V
 
     :cond_1
-    const v0, 0x7f041253
+    sget v0, Lcom/android/settings/R$string;->security_settings_face_enroll_error_timeout_dialog_message:I
 
     .line 249
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -959,14 +959,14 @@
 
     move-result-object v0
 
-    const v1, 0x7f04127f
+    sget v1, Lcom/android/settings/R$string;->security_settings_face_enroll_partial_title:I
 
     .line 702
     invoke-virtual {v0, v1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setTitle(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
 
     move-result-object v0
 
-    const v1, 0x7f04127d
+    sget v1, Lcom/android/settings/R$string;->security_settings_face_enroll_partial_message:I
 
     .line 703
     invoke-virtual {v0, v1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setMessage(I)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -977,7 +977,7 @@
 
     invoke-direct {v1, p0}, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling$$ExternalSyntheticLambda4;-><init>(Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;)V
 
-    const v2, 0x7f041245
+    sget v2, Lcom/android/settings/R$string;->security_settings_face_enroll_dialog_ok:I
 
     .line 704
     invoke-virtual {v0, v2, v1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -988,7 +988,7 @@
 
     invoke-direct {v1, p0}, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling$$ExternalSyntheticLambda5;-><init>(Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;)V
 
-    const v2, 0x7f04127e
+    sget v2, Lcom/android/settings/R$string;->security_settings_face_enroll_partial_start_over:I
 
     .line 709
     invoke-virtual {v0, v2, v1}, Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Lcom/google/android/settings/biometrics/face/FaceEnrollDialogFactory$DialogBuilder;
@@ -1293,7 +1293,7 @@
 .method protected onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V
     .locals 2
 
-    const v0, 0x7f140212
+    sget v0, Lcom/android/settings/R$style;->SetupWizardPartnerResource:I
 
     const/4 v1, 0x1
 
@@ -1362,12 +1362,12 @@
 
     invoke-virtual {v0, p0}, Lcom/google/android/setupdesign/util/ThemeResolver;->applyTheme(Landroid/app/Activity;)V
 
-    const v0, 0x7f0600ed
+    sget v0, Lcom/android/settings/R$layout;->face_enrolling:I
 
     .line 290
     invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->setContentView(I)V
 
-    const v0, 0x7f0d05aa
+    sget v0, Lcom/android/settings/R$id;->square_frame_layout:I
 
     .line 292
     invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1376,7 +1376,7 @@
 
     check-cast v0, Lcom/google/android/settings/biometrics/face/SquareFrameLayout;
 
-    const v1, 0x7f0d0324
+    sget v1, Lcom/android/settings/R$id;->indicator_view:I
 
     const/16 v2, 0x1e
 
@@ -1551,7 +1551,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f090017
+    sget v0, Lcom/android/settings/R$bool;->config_face_settings_should_manage_preview:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1598,7 +1598,7 @@
     .line 327
     iget-boolean p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;->mFromSetupWizard:Z
 
-    const v0, 0x7f14028c
+    sget v0, Lcom/android/settings/R$style;->SudGlifButton_Secondary:I
 
     const/4 v1, 0x2
 
@@ -1611,7 +1611,7 @@
 
     invoke-direct {v2, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f040996
+    sget v3, Lcom/android/settings/R$string;->face_enrolling_do_it_later:I
 
     .line 330
     invoke-virtual {v2, v3}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -1657,7 +1657,7 @@
 
     invoke-direct {v2, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f040997
+    sget v3, Lcom/android/settings/R$string;->face_enrolling_gaze_dialog_cancel:I
 
     .line 338
     invoke-virtual {v2, v3}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -1719,7 +1719,7 @@
 
     iput-object p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;->mHandler:Landroid/os/Handler;
 
-    const p1, 0x7f0d0246
+    sget p1, Lcom/android/settings/R$id;->error_text:I
 
     .line 350
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -1791,7 +1791,7 @@
 
     if-nez p1, :cond_4
 
-    const p1, 0x7f0409a0
+    sget p1, Lcom/android/settings/R$string;->face_enrolling_title_accessibility:I
 
     .line 366
     invoke-direct {p0, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;->setHeaderText(I)V
@@ -1801,7 +1801,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f040991
+    sget v0, Lcom/android/settings/R$string;->face_enrolling_center_head:I
 
     invoke-virtual {p1, v0}, Lcom/google/android/setupdesign/GlifLayout;->setDescriptionText(I)V
 
@@ -1817,7 +1817,7 @@
     goto :goto_2
 
     :cond_4
-    const p1, 0x7f04099f
+    sget p1, Lcom/android/settings/R$string;->face_enrolling_title:I
 
     .line 370
     invoke-direct {p0, p1}, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;->setHeaderText(I)V
@@ -1895,7 +1895,7 @@
 
     if-ne p1, v2, :cond_1
 
-    const v0, 0x7f041253
+    sget v0, Lcom/android/settings/R$string;->security_settings_face_enroll_error_timeout_dialog_message:I
 
     .line 645
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -1922,7 +1922,7 @@
     goto :goto_2
 
     :cond_3
-    const v0, 0x7f041252
+    sget v0, Lcom/android/settings/R$string;->security_settings_face_enroll_error_generic_dialog_message:I
 
     .line 652
     invoke-virtual {p0, v0}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -1971,9 +1971,9 @@
     :cond_0
     iget-boolean v1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollEnrolling;->mTalkbackEnabled:Z
 
-    const v2, 0x7f040991
+    sget v2, Lcom/android/settings/R$string;->face_enrolling_center_head:I
 
-    const v3, 0x7f0409a3
+    sget v3, Lcom/android/settings/R$string;->face_enrolling_too_far:I
 
     if-nez v1, :cond_3
 
@@ -1995,7 +1995,7 @@
     goto :goto_1
 
     :pswitch_0
-    const p2, 0x7f0409a9
+    sget p2, Lcom/android/settings/R$string;->face_enrolling_turned_too_far:I
 
     .line 555
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -2037,7 +2037,7 @@
     goto :goto_1
 
     :pswitch_5
-    const p2, 0x7f0409a5
+    sget p2, Lcom/android/settings/R$string;->face_enrolling_too_left:I
 
     .line 527
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -2047,7 +2047,7 @@
     goto :goto_1
 
     :pswitch_6
-    const p2, 0x7f0409a7
+    sget p2, Lcom/android/settings/R$string;->face_enrolling_too_right:I
 
     .line 524
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -2057,7 +2057,7 @@
     goto :goto_1
 
     :pswitch_7
-    const p2, 0x7f0409a6
+    sget p2, Lcom/android/settings/R$string;->face_enrolling_too_low:I
 
     .line 521
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -2067,7 +2067,7 @@
     goto :goto_1
 
     :pswitch_8
-    const p2, 0x7f0409a4
+    sget p2, Lcom/android/settings/R$string;->face_enrolling_too_high:I
 
     .line 518
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
@@ -2085,7 +2085,7 @@
     goto :goto_1
 
     :pswitch_a
-    const p2, 0x7f0409a2
+    sget p2, Lcom/android/settings/R$string;->face_enrolling_too_close:I
 
     .line 512
     invoke-virtual {p0, p2}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;

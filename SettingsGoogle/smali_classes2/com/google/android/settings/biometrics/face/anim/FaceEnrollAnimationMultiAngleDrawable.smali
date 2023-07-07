@@ -139,7 +139,7 @@
 
     move-result-object p5
 
-    const v0, 0x7f0a00c8
+    sget v0, Lcom/android/settings/R$color;->face_enroll_single_capture_rotating_1:I
 
     invoke-virtual {p5, v0}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -272,7 +272,7 @@
 
     iget-object p0, p0, Lcom/google/android/settings/biometrics/face/anim/FaceEnrollAnimationMultiAngleDrawable;->mContext:Landroid/content/Context;
 
-    const v1, 0x7f0409a8
+    sget v1, Lcom/android/settings/R$string;->face_enrolling_turn_head_to_arrow:I
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

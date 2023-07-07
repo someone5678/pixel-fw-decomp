@@ -237,7 +237,7 @@
 .method protected onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V
     .locals 2
 
-    const v0, 0x7f140212
+    sget v0, Lcom/android/settings/R$style;->SetupWizardPartnerResource:I
 
     const/4 v1, 0x1
 
@@ -343,7 +343,7 @@
     .line 78
     invoke-static {p0}, Lcom/google/android/setupdesign/util/ThemeHelper;->trySetDynamicColor(Landroid/content/Context;)Z
 
-    const p1, 0x7f0600ea
+    sget p1, Lcom/android/settings/R$layout;->face_enroll_fold_page:I
 
     .line 79
     invoke-virtual {p0, p1}, Landroidx/activity/ComponentActivity;->setContentView(I)V
@@ -353,7 +353,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f0e0009
+    sget v0, Lcom/android/settings/R$integer;->config_face_enroll_supported_posture:I
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getInteger(I)I
 
@@ -362,7 +362,7 @@
     .line 81
     invoke-static {p1}, Lcom/android/settings/biometrics/BiometricUtils;->setDevicePosturesAllowEnroll(I)V
 
-    const p1, 0x7f0d0568
+    sget p1, Lcom/android/settings/R$id;->setup_wizard_layout:I
 
     .line 84
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -373,7 +373,7 @@
 
     iput-object p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollFoldPage;->mGlifLayout:Lcom/google/android/setupdesign/GlifLayout;
 
-    const v0, 0x7f040992
+    sget v0, Lcom/android/settings/R$string;->face_enrolling_close_to_continue:I
 
     .line 85
     invoke-virtual {p1, v0}, Lcom/google/android/setupdesign/GlifLayout;->setHeaderText(I)V
@@ -381,11 +381,11 @@
     .line 86
     iget-object p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollFoldPage;->mGlifLayout:Lcom/google/android/setupdesign/GlifLayout;
 
-    const v0, 0x7f040993
+    sget v0, Lcom/android/settings/R$string;->face_enrolling_close_to_continue_description:I
 
     invoke-virtual {p1, v0}, Lcom/google/android/setupdesign/GlifLayout;->setDescriptionText(I)V
 
-    const p1, 0x7f0d0313
+    sget p1, Lcom/android/settings/R$id;->illustration_lottie:I
 
     .line 87
     invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
@@ -408,7 +408,7 @@
     .line 89
     iget-object p1, p0, Lcom/google/android/settings/biometrics/face/FaceEnrollFoldPage;->mIllustrationLottie:Lcom/airbnb/lottie/LottieAnimationView;
 
-    const v0, 0x7f03002f
+    sget v0, Lcom/android/settings/R$raw;->face_posture_guidance_lottie:I
 
     invoke-virtual {p1, v0}, Lcom/airbnb/lottie/LottieAnimationView;->setAnimation(I)V
 
@@ -442,7 +442,7 @@
 
     invoke-direct {v1, p0}, Lcom/google/android/setupcompat/template/FooterButton$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f040996
+    sget v2, Lcom/android/settings/R$string;->face_enrolling_do_it_later:I
 
     .line 97
     invoke-virtual {v1, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setText(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
@@ -465,7 +465,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f14028c
+    sget v2, Lcom/android/settings/R$sytle;->SudGlifButton_Secondary:I
 
     .line 100
     invoke-virtual {v1, v2}, Lcom/google/android/setupcompat/template/FooterButton$Builder;->setTheme(I)Lcom/google/android/setupcompat/template/FooterButton$Builder;
