@@ -16,7 +16,7 @@
     .line 2
     .line 3
     .line 4
-    const p2, 0x7f0d02d3
+    sget p2, Lcom/android/systemui/R$layout;->url_container:I
 
     .line 5
     .line 6
@@ -33,7 +33,7 @@
 
     .line 12
     .line 13
-    const p1, 0x7f0a07b7
+    sget p1, Lcom/android/systemui/R$id;->url_text:I
 
     .line 14
     .line 15
@@ -50,7 +50,7 @@
 
     .line 21
     .line 22
-    const p1, 0x7f0a07b5
+    sget p1, Lcom/android/systemui/R$id;->url_indicator:I
 
     .line 23
     .line 24

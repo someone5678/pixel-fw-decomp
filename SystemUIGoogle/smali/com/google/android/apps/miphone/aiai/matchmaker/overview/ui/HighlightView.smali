@@ -2861,7 +2861,7 @@
     .line 47
     .line 48
     .line 49
-    const v1, 0x7f0600a1
+    sget v1, Lcom/android/systemui/R$color;->default_gleam_background_color:I
 
     .line 50
     .line 51
@@ -2887,7 +2887,7 @@
     move-result-object p2
 
     .line 63
-    const v1, 0x7f07082e
+    sget v1, Lcom/android/systemui/R$dimen;->selection_padding:I
 
     .line 64
     .line 65
@@ -2929,7 +2929,7 @@
 
     .line 84
     .line 85
-    const v3, 0x7f0600a2
+    sget v3, Lcom/android/systemui/R$color;->default_gleam_highlight_color:I
 
     .line 86
     .line 87
