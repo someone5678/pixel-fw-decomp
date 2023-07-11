@@ -77,7 +77,7 @@
     .locals 3
 
     .line 0
-    const v0, 0x7f0a00a3
+    sget v0, Lcom/android/systemui/R$id;->ambient_indication_text:I
 
     .line 1
     .line 2
@@ -98,7 +98,7 @@
 
     .line 10
     .line 11
-    const v0, 0x7f0a00a1
+    sget v0, Lcom/android/systemui/R$id;->ambient_indication_icon:I
 
     .line 12
     .line 13
@@ -119,7 +119,7 @@
 
     .line 21
     .line 22
-    const v0, 0x7f0a009f
+    sget v0, Lcom/android/systemui/R$id;->ambient_indication:I
 
     .line 23
     .line 24
@@ -169,7 +169,7 @@
 
     .line 47
     .line 48
-    const/high16 v2, 0x7f170000
+    sget v2, Lcom/android/systemui/R$xml;->ambient_indication_inner_downwards:I
 
     .line 49
     .line 50
@@ -186,7 +186,7 @@
 
     .line 55
     .line 56
-    const v2, 0x7f170001
+    sget v2, Lcom/android/systemui/R$xml;->ambient_indication_inner_upwards:I
 
     .line 57
     .line 58
@@ -245,7 +245,7 @@
     move-result-object v0
 
     .line 86
-    const v1, 0x7f07008b
+    sget v1, Lcom/android/systemui/R$dimen;->ambient_indication_icon_size:I
 
     .line 87
     .line 88
@@ -270,7 +270,7 @@
     move-result-object v0
 
     .line 99
-    const v1, 0x7f07008d
+    sget v1, Lcom/android/systemui/R$dimen;->ambient_indication_note_icon_size:I
 
     .line 100
     .line 101
@@ -30672,7 +30672,7 @@
 
     .line 60
     :pswitch_1
-    const p2, 0x7f0806f1
+    sget p2, Lcom/android/systemui/R$drawable;->ic_favorite_note:I
 
     .line 61
     .line 62
@@ -30689,7 +30689,7 @@
 
     .line 68
     :pswitch_2
-    const p2, 0x7f0806eb
+    sget p2, Lcom/android/systemui/R$drawable;->ic_error:I
 
     .line 69
     .line 70
@@ -30706,7 +30706,7 @@
 
     .line 76
     :pswitch_3
-    const p2, 0x7f0806f0
+    sget p2, Lcom/android/systemui/R$drawable;->ic_favorite_border:I
 
     .line 77
     .line 78
@@ -30723,7 +30723,7 @@
 
     .line 84
     :pswitch_4
-    const p2, 0x7f0806ef
+    sget p2, Lcom/android/systemui/R$drawable;->ic_favorite:I
 
     .line 85
     .line 86
@@ -30740,7 +30740,7 @@
 
     .line 92
     :pswitch_5
-    const p2, 0x7f08064f
+    sget p2, Lcom/android/systemui/R$drawable;->ic_cloud_off:I
 
     .line 93
     .line 94
@@ -30757,7 +30757,7 @@
 
     .line 100
     :pswitch_6
-    const p2, 0x7f0807e7
+    sget p2, Lcom/android/systemui/R$drawable;->ic_music_not_found:I
 
     .line 101
     .line 102
@@ -30774,7 +30774,7 @@
 
     .line 108
     :pswitch_7
-    const p2, 0x7f0807e9
+    sget p2, Lcom/android/systemui/R$drawable;->ic_music_search:I
 
     .line 109
     .line 110
@@ -31239,7 +31239,7 @@
     move-result-object v0
 
     .line 4
-    const v1, 0x7f07008c
+    sget v1, Lcom/android/systemui/R$dimen;->ambient_indication_margin_bottom:I
 
     .line 5
     .line 6
@@ -37035,7 +37035,7 @@
 
     .line 95
     .line 96
-    const v6, 0x7f01024d
+    sget v6, Lcom/android/systemui/R$anim;->reverse_charging_animation:I
 
     .line 97
     .line 98
@@ -37188,7 +37188,7 @@
 
     .line 167
     .line 168
-    const v9, 0x7f0807e8
+    sget v9, Lcom/android/systemui/R$drawable;->ic_music_note:I
 
     .line 169
     .line 170
@@ -37226,7 +37226,7 @@
 
     .line 185
     .line 186
-    const v9, 0x7f010204
+    sget v9, Lcom/android/systemui/R$anim;->audioanim_animation:I
 
     .line 187
     .line 188
