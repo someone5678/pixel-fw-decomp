@@ -1,6 +1,5 @@
-!!brut.androlib.meta.MetaInfo
+!!brut.androlib.apk.ApkInfo
 apkFileName: SettingsGoogle.apk
-compressionType: false
 doNotCompress:
 - classes.dex
 - resources.arsc
@@ -102,15 +101,21 @@ doNotCompress:
 - ogg
 - res/raw/warranty_mapping.json
 isFrameworkApk: false
-packageInfo: null
-sdkInfo:
-  minSdkVersion: '28'
+packageInfo:
+  forcedPackageId: null
+  renameManifestPackage: null
+resourcesAreCompressed: false
+sdkInfo: {}
 sharedLibrary: false
 sparseResources: false
 unknownFiles:
   DebugProbesKt.bin: '8'
   stamp-cert-sha256: '8'
   com/android/settings/ChangeIds_compat_config.xml: '8'
-usesFramework: null
-version: 2.7.0
-versionInfo: null
+usesFramework:
+  ids: []
+  tag: null
+version: 2.8.1
+versionInfo:
+  versionCode: null
+  versionName: null

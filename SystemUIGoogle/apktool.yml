@@ -1,6 +1,5 @@
-!!brut.androlib.meta.MetaInfo
+!!brut.androlib.apk.ApkInfo
 apkFileName: SystemUIGoogle.apk
-compressionType: false
 doNotCompress:
 - classes.dex
 - resources.arsc
@@ -81,14 +80,20 @@ doNotCompress:
 - res/raw/elmyra_chassis.pb
 - ogg
 isFrameworkApk: false
-packageInfo: null
-sdkInfo:
-  minSdkVersion: '28'
+packageInfo:
+  forcedPackageId: null
+  renameManifestPackage: null
+resourcesAreCompressed: false
+sdkInfo: {}
 sharedLibrary: false
 sparseResources: false
 unknownFiles:
   DebugProbesKt.bin: '8'
   stamp-cert-sha256: '8'
-usesFramework: null
-version: 2.7.0
-versionInfo: null
+usesFramework:
+  ids: []
+  tag: null
+version: 2.8.1
+versionInfo:
+  versionCode: null
+  versionName: null
